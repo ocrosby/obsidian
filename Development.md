@@ -19,3 +19,6 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 ### Tmux
 
 * [[An Introduction to Tmux]]
+
+
+[Build a Telescope Extension for Neovim](https://www.youtube.com/watch?v=ZCkG47xGOl4)
