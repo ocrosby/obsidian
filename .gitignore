@@ -1,25 +1,29 @@
-# Obsidian workspace state (local UI layout, history)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
+# Ignore workspace state (local UI layout/history) for all vaults
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
 
-# Cache files (search index, etc.)
-.obsidian/graph.json
-.obsidian/cache
+# Ignore Obsidian cache files
+**/.obsidian/graph.json
+**/.obsidian/cache
 
-# Optional: Ignore all plugins (if syncing separately or using plugin manager)
-.obsidian/plugins/*
+# Ignore all plugin binaries/data by default
+**/.obsidian/plugins/*
 
-# EXCEPT: Keep plugin folder structure, ignore plugin binaries
-!*.md
-!.obsidian/plugins/
-.obsidian/plugins/*/main.js
-.obsidian/plugins/*/manifest.json
+# Optionally: keep plugin folder structure (but ignore plugin contents)
+!**/.obsidian/plugins/
+**/.obsidian/plugins/*/main.js
+**/.obsidian/plugins/*/manifest.json
 
 # OS-specific files
-.DS_Store
-Thumbs.db
+**/.DS_Store
+**/Thumbs.db
 
-# Node, Python, etc. project artifacts (if embedded)
-node_modules/
-venv/
-dist/
+# Common build artifacts (in case you keep Node/Python projects in a vault)
+**/node_modules/
+**/venv/
+**/dist/
+
+# Optional: ignore secrets
+**/.env
+**/.env.*
+
