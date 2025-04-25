@@ -20,5 +20,12 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 * [[An Introduction to Tmux]]
 
+### Python
+
+#### [[An Introduction to Pytest]]
+
+#### [[Behavioral Testing in Pytest]]
+
+#### [[Pytest Mocking]]
 
 [Build a Telescope Extension for Neovim](https://www.youtube.com/watch?v=ZCkG47xGOl4)
