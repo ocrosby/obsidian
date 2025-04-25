@@ -22,7 +22,7 @@ set-option -g status-position top
 
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
-set -g @plugin 'catppuccin/tmux'
+set -g @plugin 'fabioluciano/tmux-tokyo-night'
 
 # Other examples:
 # set -g @plugin 'github_username/plugin_name'

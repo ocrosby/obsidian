@@ -1,4 +1,4 @@
-tmux has a plugin manager called tpm that you can find here [tpm repository](https://github.com/tmux-plugins/tpm).
+Itmux has a plugin manager called tpm that you can find here [tpm repository](https://github.com/tmux-plugins/tpm).
 
 ## Setting up TPM
 

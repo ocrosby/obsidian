@@ -60,18 +60,57 @@ local conf = require("telescope.config").values
 local actions = require("telescope.actions")
 local action_state = require("telescope.actions.state")
 local Path = require("plenary.path")
+local yaml = require("yaml")  -- Assume you have a Lua YAML parser available
 
 local M = {}
 
--- Preset list of environments
-local environments = { "qa", "prod", "legacy" }
+-- Default presets
+local default_environments = { "qa", "prod", "legacy" }
+local default_regions = { "auto", "use1", "usw2", "euw1", "apse1" }
 
--- Preset list of regions
-local regions = { "auto", "use1", "usw2", "euw1", "apse1" }
+--- Read ingress-mapping.yaml if it exists.
+local function read_ingress_mapping()
+  local ingress_file = Path:new("ingress-mapping.yaml")
+  if not ingress_file:exists() then
+    return nil
+  end
 
---- Read pytest markers from pytest.ini if it exists.
--- Looks for lines with `-m "<markers>"` inside `addopts`
--- Returns a sorted list of unique marker strings
+  local content = ingress_file:read()
+  local parsed = yaml.load(content)
+  return parsed
+end
+
+--- Get list of environments dynamically or fall back
+local function get_environments()
+  local ingress = read_ingress_mapping()
+  if ingress and ingress.environments then
+    local envs = {}
+    for _, env in ipairs(ingress.environments) do
+      table.insert(envs, env.name)
+    end
+    return envs
+  end
+  return default_environments
+end
+
+--- Get list of regions for a selected environment dynamically or fallback
+local function get_regions_for_environment(selected_env)
+  local ingress = read_ingress_mapping()
+  if ingress and ingress.environments then
+    for _, env in ipairs(ingress.environments) do
+      if env.name == selected_env then
+        local regions = {}
+        for _, region in ipairs(env.regions or {}) do
+          table.insert(regions, region.name)
+        end
+        return regions
+      end
+    end
+  end
+  return default_regions
+end
+
+--- Read pytest markers from pytest.ini
 local function read_markers_from_ini()
   local markers_set = {}
   local ini = Path:new("pytest.ini")
@@ -87,15 +126,11 @@ local function read_markers_from_ini()
     end
   end
 
-  -- Convert set to sorted list
   local markers = vim.tbl_keys(markers_set)
   table.sort(markers)
   return markers
 end
 
---- Prompt user to select one or more markers from pytest.ini.
--- Once selected, builds and displays the full command
--- with selected environment, region, and markers if any.
 local function select_markers(env, region)
   local markers = read_markers_from_ini()
 
@@ -113,25 +148,16 @@ local function select_markers(env, region)
         end
         actions.close(prompt_bufnr)
 
-        -- Build the base command
-        local command = string.format(
-          'python3 preprocessor.py -e %s -r %s',
-          env,
-          region
-        )
+        local command = string.format('python3 preprocessor.py -e %s -r %s', env, region)
 
-        -- If markers are selected, append the -m option
         if #selections > 0 then
-          local marker_str = table.concat(selections, "\" and \"")
-          if #selections > 1 then
-            marker_str = "\"" .. marker_str .. "\""
-          else
-            marker_str = selections[1]
-          end
+          local marker_str = table.concat(selections, " and ")
+          marker_str = '"' .. marker_str .. '"'
           command = command .. string.format(' -m %s', marker_str)
         end
 
         vim.notify("Generated command:\n" .. command, vim.log.levels.INFO)
+        vim.fn.setreg('+', command)  -- Copy command to clipboard
       end)
 
       return true
@@ -139,16 +165,15 @@ local function select_markers(env, region)
   }):find()
 end
 
---- Prompt user to select a region after selecting environment.
--- Once selected, proceeds to marker selection.
 local function select_region(env)
+  local regions = get_regions_for_environment(env)
+
   pickers.new({}, {
     prompt_title = "Select Region",
     finder = finders.new_table {
       results = regions,
     },
     sorter = conf.generic_sorter({}),
-    default_selection_index = 1,
     attach_mappings = function(prompt_bufnr, _)
       actions.select_default:replace(function()
         local selection = action_state.get_selected_entry()
@@ -160,16 +185,15 @@ local function select_region(env)
   }):find()
 end
 
---- Entry point for the Telescope extension.
--- Prompts user to select an environment, then proceeds to region.
 function M.run_pytest_picker()
+  local envs = get_environments()
+
   pickers.new({}, {
     prompt_title = "Select Environment",
     finder = finders.new_table {
-      results = environments,
+      results = envs,
     },
     sorter = conf.generic_sorter({}),
-    default_selection_index = 1,
     attach_mappings = function(prompt_bufnr, _)
       actions.select_default:replace(function()
         local selection = action_state.get_selected_entry()
@@ -181,7 +205,6 @@ function M.run_pytest_picker()
   }):find()
 end
 
--- Register the extension with Telescope
 return require("telescope").register_extension({
   exports = {
     pytest_runner = M.run_pytest_picker,
