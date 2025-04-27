@@ -28,4 +28,8 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 #### [[Pytest Mocking]]
 
+### Dotfiles
+
+#### [[An Introduction to Dotfiles]]
+
 [Build a Telescope Extension for Neovim](https://www.youtube.com/watch?v=ZCkG47xGOl4)

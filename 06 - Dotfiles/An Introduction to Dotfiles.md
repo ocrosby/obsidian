@@ -15,6 +15,8 @@ Common examples include:
 
 Dotfiles control everything from the behavior of your shell to the appearance of your editor, allowing deep personalization of your workspace.
 
+My personal dotfiles repository can be found [here](https://github.com/ocrosby/dotfiles).
+
 ---
 
 ## Why Manage Your Dotfiles?
