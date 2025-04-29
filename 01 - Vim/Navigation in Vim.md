@@ -1,11 +1,78 @@
 
-- `h`, `j`, `k`, `l`: Move the cursor left, down, up, and right respectively. 
-- `w`: Move the cursor to the beginning of the next word. 
-- `b`: Move the cursor to the beginning of the previous word. 
-- `e`: Move the cursor to the end of the current word. 
-- `0`: Move the cursor to the beginning of the line. 
-- `$`: Move the cursor to the end of the line. 
-- `gg`: Move to the top of the file. 
-- `G`: Move to the bottom of the file. 
-- `Ctrl + f`: Move forward one screen. 
-- `Ctrl + b`: Move backward one screen.
+## Move left
+
+```plaintext
+:h
+```
+
+## Move down
+
+```plaintext
+:j
+```
+
+## Move  up
+
+```plaintext
+:k
+```
+
+## Move right
+
+```plaintext
+:l
+```
+
+## Move to the beginning of the next word
+
+```plaintext
+:w
+```
+
+## Move to the beginning of the previous word
+
+```plaintext
+:b
+```
+
+## Move to the end of the current word
+
+```plaintext
+:e
+```
+
+## Move to the beginning of the line
+
+```plaintext
+:0
+```
+
+## Move to the end of the line
+
+```plaintext
+:$
+```
+
+## Move to the top of the file
+
+```plaintext
+:gg
+```
+
+## Move to the bottom of the file
+
+```plaintext
+:G
+```
+
+## Move forward one screen
+
+```plaintext
+:C_f
+```
+
+## Move backward one screen
+
+```plaintext
+:C_b
+```

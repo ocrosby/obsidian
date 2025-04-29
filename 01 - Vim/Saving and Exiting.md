@@ -1,5 +1,25 @@
+## Save the current file
 
-- `:w`: Save the current file.
-- `:q`: Quit Vim.
-- `:wq`: Save and quit Vim.
-- `:q!`: Quit without saving changes.
+```plaintext
+:w
+```
+
+## Quit 
+
+```plaintext
+:q
+```
+
+
+## Save and quit
+
+```plaintext
+:wq
+```
+
+## Quit without saving changes
+
+```plaintext
+:q!
+```
+
