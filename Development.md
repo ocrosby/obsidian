@@ -15,6 +15,7 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 * [[An Introduction to Neovim]]
 * [[Neovim Keymaps Reference]]
+* [[Neovim Plugins]]
 
 ### Tmux
 

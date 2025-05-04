@@ -5,8 +5,6 @@ This note documents custom Neovim keymaps organized by category. Leader key is s
 
 ## 🔀 [[Buffer Management]]
 
-## 📁 [[NvimTree]]
-
 ## 🪄 [[Visual Mode Enhancements]]
 
 ## 🧪 [[Testing]]
