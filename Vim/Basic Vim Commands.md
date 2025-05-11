@@ -1,6 +1,8 @@
 
 ## [[Navigation in Vim]]
 
+## [[Vim Motions]]
+
 ## [[Editing]]
 
 ## [[Searching]]
@@ -10,6 +12,8 @@
 ## [[Visual Mode]]
 
 ## [[Miscellaneous]]
+
+## [[Macros]]
 
 ---
 

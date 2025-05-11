@@ -1,4 +1,6 @@
 
+# Build a Telescope Plugin
+
 ## Requirements
 
 Make sure you have neovim and telescope installed.

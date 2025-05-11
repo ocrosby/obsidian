@@ -1,10 +1,12 @@
+# An Introduction to Neovim
+
 ## What is Neovim?
 
   
 
 **Neovim** is a modern, hyper-extensible text editor based on [Vim](https://www.vim.org). It seeks to maximize usability and maintainability while extending Vim's powerful editing model. Designed for both power users and plugin developers, Neovim offers better defaults, a thriving plugin ecosystem, and asynchronous architecture.
 
-A great place to keep coming back to is the [[Neovim Keymaps Reference]]. It contains all the keymaps you need to know about my Neovim configuration and its plugins.  
+A great place to keep coming back to is the [[keymaps-reference]]. It contains all the keymaps you need to know about my Neovim configuration and its plugins.  
 
 Neovim utilizes Lua for configuration, making it faster and more efficient than traditional Vimscript. This allows for a more modern and flexible approach to configuring your editor. For more on Lua check out [[An Introduction to Lua]].
 

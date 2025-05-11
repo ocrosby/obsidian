@@ -1,3 +1,6 @@
+
+# Internal Lazy Loading
+
 One way to decrease the cost of `require('foobar')` if using many modules is to ensure that the `foobar/init.lua` only loads other modules when needed.
 
 Instead of having something like this at the start of your `foobar/init.lua`

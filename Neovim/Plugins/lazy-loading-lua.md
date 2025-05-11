@@ -1,4 +1,6 @@
 
+# Lazy Loading Lua Code
+
 You may not always want to run code whenever Neovim starts or when a FileType event triggers. Instead you may want to run logic on-demand, either by calling a function directly or via keymap.
 
 The simplest way to do that, is to place a single file in a `lua/` folder. This folder can be in any of the `runtimepath` or packages locations. For example, in `lua/foobar.lua` you would write:

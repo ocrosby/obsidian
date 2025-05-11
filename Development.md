@@ -13,9 +13,9 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 ### Neovim
 
-* [[An Introduction to Neovim]]
-* [[Neovim Keymaps Reference]]
-* [[Neovim Plugins]]
+* [[Neovim/README]]
+* [[keymaps-reference]]
+* [[Neovim/Plugins/README]]
 
 ### Tmux
 
@@ -23,15 +23,15 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 ### Python
 
-#### [[An Introduction to Pytest]]
+#### [[Languages/Python/Pytest/README]]
 
-#### [[Behavioral Testing in Pytest]]
+#### [[pytest-bdd]]
 
-#### [[Pytest Mocking]]
+#### [[pytest-mocking]]
 
 ### Dotfiles
 
-#### [[An Introduction to Dotfiles]]
+#### [[Dotfiles/README]]
 
 ## [[Make]]
 ## [[Zsh]]

@@ -1,4 +1,5 @@
 
+# Keymaps Reference
 
 This note documents custom Neovim keymaps organized by category. Leader key is set to `<Space>`, local leader to `\`.
 

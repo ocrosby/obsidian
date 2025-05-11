@@ -1,3 +1,6 @@
+
+# Plugin Configuration
+
 ## A Setup Method
 
 With the rise of Lua plugins it became popular to have a single setup function to configure plugins. The plugin exports a setup function which users can call to configure it.
