@@ -1,6 +1,8 @@
 ---
-aliases: [""]
+aliases: ["Vim Macros"]
 ---
+# Macros
+
 
 ## [[recording-macro]]
 
