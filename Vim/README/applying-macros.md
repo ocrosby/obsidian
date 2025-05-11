@@ -1,5 +1,5 @@
 
-# {{title}}
+# Steps to Apply a Macro
 
 1. **Record the macro** into a register (e.g., a):
 

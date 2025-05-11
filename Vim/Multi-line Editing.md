@@ -2,6 +2,6 @@
 # {{title}}
 
 
-## [[Macros]]
+## [[vim/macros/README]]
 
 

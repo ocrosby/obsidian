@@ -13,7 +13,7 @@
 
 ## [[miscellaneous]]
 
-## [[Macros]]
+## [[vim/macros/README]]
 
 ---
 

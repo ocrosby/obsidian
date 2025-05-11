@@ -1,5 +1,8 @@
+---
+aliases: ["Viewing or Editing Macros"]
+---
 
-# {{title}}
+# Viewing or Editing Macros
 
 To **see what's in a register a**, type:
 

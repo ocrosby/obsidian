@@ -1,4 +1,8 @@
-# {{title}}
+---
+aliases: ["Playing back a Macro"]
+---
+
+# Playing back a Macro
 
 To **replay** the macro stored in register `a`:
 

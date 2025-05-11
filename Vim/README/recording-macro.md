@@ -1,5 +1,8 @@
+---
+aliases: ["Recording a Macro"]
+---
 
-# {{title}}
+# Recording a Macro 
 
 
 1. Press qq followed by a register key (usually a lowercase letter, e.g., a):
