@@ -3,15 +3,15 @@
 
 ## [[Vim Motions]]
 
-## [[Editing]]
+## [[editing]]
 
-## [[Searching]]
+## [[searching]]
 
-## [[Saving and Exiting]]
+## [[saving-and-exiting]]
 
 ## [[Visual Mode]]
 
-## [[Miscellaneous]]
+## [[miscellaneous]]
 
 ## [[Macros]]
 

@@ -5,11 +5,11 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 ### Vim
 
 - [[Basic Vim Commands]]
-- [[Editing]]
-- [[Saving and Exiting]]
-- [[Searching]]
+- [[editing]]
+- [[saving-and-exiting]]
+- [[searching]]
 - [[Visual Mode]]
-- [[Miscellaneous]]
+- [[miscellaneous]]
 
 ### Neovim
 
