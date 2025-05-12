@@ -31,7 +31,7 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 ### Python
 
-#### [[Languages/Python/Pytest/README]]
+#### [[languages/python/Pytest/README]]
 
 #### [[pytest-bdd]]
 
