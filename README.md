@@ -1,7 +1,9 @@
 ---
 id: Development
-aliases: []
-tags: []
+aliases:
+  - Development
+tags:
+  - dev
 ---
 
 My development workflow is changing as of late. I am embracing a Neovim+Tmux development environment which is changing a lot about how I work.  I will do my best to keep documenting my journey here.
@@ -43,4 +45,5 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 ## [[Zsh]]
 
 [Build a Telescope Extension for Neovim](https://www.youtube.com/watch?v=ZCkG47xGOl4)
-q:
+
+
