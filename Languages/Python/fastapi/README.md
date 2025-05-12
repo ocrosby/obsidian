@@ -4,15 +4,15 @@ aliases: ["FastAPI"]
 
 # FastAPI
 
-## Topics
+- Topics
 
 -  [[routing]]
 - [[requests]]
-## [[responses]]
-## [[models]]
-## [[dependencies]]
-## [[middleware]]
-## [[testing]]
-## [[async]]
-## [[security]]
-## [[deployment]]
+- [[responses]]
+- [[models]]
+- [[dependencies]]
+- [[middleware]]
+- [[testing]]
+- [[async]]
+- [[security]]
+- [[deployment]]
