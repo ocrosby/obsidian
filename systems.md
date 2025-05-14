@@ -32,3 +32,6 @@ Build a messaging app that uses
 - A background job queue to process email notifications
 - A rate limiteer to block spammy users (connecting different users to each other in private rooms)
 
+## References
+
+- [Programming Is Not Enough](https://www.youtube.com/watch?v=bZa2uicOTAE)
