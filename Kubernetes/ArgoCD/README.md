@@ -15,3 +15,7 @@ kubctl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/sta
 
 This will create a new namespace, argocd, where Argo CD services and application resources will live.
 
+## References
+
+- [ArgoCD Tutorial for Beginners](https://www.youtube.com/watch?v=MeU5_k9ssrs)
+
