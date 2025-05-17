@@ -15,3 +15,13 @@ sudo scutil --get ComputerName
 sudo scutil --get HostName
 sudo scutil --get LocalHostName
 ```
+
+### Updating /etc/hosts
+
+If you want to associate your hostname with 127.0.0.1, edit `/etc/hosts`
+
+Add a line like:
+
+```plaintext
+127.0.0.1 <hostname>.local <hostname
+```
