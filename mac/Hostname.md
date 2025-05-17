@@ -26,7 +26,7 @@ Add a line like:
 127.0.0.1 <hostname>.local <hostname>
 ```
 
-### Reserve the Hostname & IP in Your Roter (Static DHCP)
+### Reserve the Hostname & IP in Your Router (Static DHCP)
 
 - This ensures your machine will always get the same IP address.
 - The hostname will resolve consistently via DNS or mDNS
@@ -59,4 +59,11 @@ So for example if you are on a machine called `bubble` and your username is `fre
 ssh-keygen -t ed25519 -C "fred@bubble"
 ```
 
-Copy your publ
+Copy your public key to the server you want to connect to
+
+```shell
+ssh-copy-id fred@myserver.local
+```
+
+This assumes you are attempting to ssh into a machine named `myserver.local`.
+
