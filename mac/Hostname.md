@@ -40,6 +40,21 @@ On any MacOS machine that you want to SSH into execute the following:
 sudo systemsetup -setremotelogin on
 ```
 
+Note: Depending on the terminal you are on you may need to grand your terminal full disk access on Macos:
+
+#### **✅ How to Grant Terminal Full Disk Access**
+
+1. Open **System Settings** → **Privacy & Security**
+    
+2. Scroll to **Full Disk Access**
+    
+3. Click the **“+” button**
+    
+4. Select **Terminal** (or iTerm2 if you use that)
+    
+5. Toggle it to **enabled** (green)
+
+
 You can verify:
 
 ```shell
