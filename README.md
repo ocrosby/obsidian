@@ -21,9 +21,9 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 ### Neovim
 
-* [[Neovim/README]]
+* [[neovim/README]]
 * [[keymaps-reference]]
-* [[Neovim/Plugins/README]]
+* [[neovim/Plugins/README]]
 
 ### Tmux
 
@@ -31,7 +31,7 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 ### Python
 
-#### [[languages/python/Pytest/README]]
+#### [[languages/python/pytest/README]]
 
 #### [[pytest-bdd]]
 
@@ -39,7 +39,7 @@ My development workflow is changing as of late. I am embracing a Neovim+Tmux dev
 
 ### Dotfiles
 
-#### [[Dotfiles/README]]
+#### [[dotfiles/README]]
 
 ## [[Make]]
 ## [[Zsh]]
