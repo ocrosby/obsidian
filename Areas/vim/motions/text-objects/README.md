@@ -5,17 +5,17 @@ aliases: ["Text Objects"]
 
 ## [[a-and-i]]
 
-## [[vim/motions/text-objects/quotes]]
+## [[quotes]]
 
-## [[vim/motions/text-objects/functions]]
+## [[Areas/vim/motions/text-objects/functions]]
 
-## [[vim/motions/text-objects/quotes]]
+## [[quotes]]
 
-## [[vim/motions/text-objects/brackets]]
+## [[brackets]]
 
-## [[vim/motions/text-objects/paragraphs]]
+## [[paragraphs]]
 
-## [[vim/motions/text-objects/custom-objects]]
+## [[custom-objects]]
 
 ---
 
@@ -131,8 +131,8 @@ require'nvim-treesitter.configs'.setup {
 
 ## 🔗 See Also
 
-- [[Motions/text-objects/functions]]
+- [[Areas/vim/motions/text-objects/functions]]
     
-- [[Motions/text-objects/quotes]]
+- [[quotes]]
     
-- [[Motions/text-objects/a-and-i]]
+- [[a-and-i]]
