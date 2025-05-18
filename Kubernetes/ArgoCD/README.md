@@ -51,7 +51,18 @@ The `-w` flag tells `kubectl` to wait until all pods show STATUS: Running.
 
 ## Step 4. Expose ArgoCD API Server
 
+## Step 5. Get Initial Admin Password
 
+The defaul tlogin is:
+
+- Username: admin
+- Password: auto-generated, stored in a Kubernetes secret
+
+**Get it with**
+
+```shell
+kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 -d && echo
+```
 
 ## References
 
