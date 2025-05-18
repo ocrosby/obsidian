@@ -4,11 +4,21 @@ Create an application configuration repo
 
 argocdc-app-config
 
-On my Ubuntu server I utilized [Canonical Kubernetes](https://ubuntu.com/kubernetes) to setup 
+On my Ubuntu server I utilized [Canonical Kubernetes](https://ubuntu.com/kubernetes) to setup a Kubernetes environment for experimentation.
 
-## Step 1
+***Create a symbolic link to kubectl relative to snap***
+
+```shell
+ln -s /snap/k8s/current/bin/kubectl /usr/local/bin/kubectl
+```
+
+This makes it so you don't have to execute `sudo k8s kubectl` all the time.
+
+## Step 1. Create a Namespace for ArgoCD
 
 Reference the [Getting Started guide for ArgoCD](https://argo-cd.readthedocs.io/en/stable/getting_started/)
+
+**Create a namespa
 
 ```shell
 kubctl create namespace argocd
