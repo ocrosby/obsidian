@@ -82,6 +82,15 @@ The defaul tlogin is:
 kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath="{.data.password}" | base64 -d && echo
 ```
 
+I have created a repository for my experimental gitops infrastructure [here](https://github.com/ocrosby/gitops-infra).  To apply it I did the following:
+
+```shell
+kubectl apply -f clusters/studio/bootstrap/root-application.yaml
+```
+
+After that, ArgoCD should take over and deploy everything found under `clusters/studio/apps`.
+
+
 ## References
 
 - [ArgoCD Tutorial for Beginners](https://www.youtube.com/watch?v=MeU5_k9ssrs)
