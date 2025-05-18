@@ -1,121 +1,28 @@
-# Obsidian Vault Organization (PARA Method)
+# 🧠 Obsidian Vault
 
-This Obsidian vault follows the [PARA method](https://fortelabs.com/blog/para/) for digital organization. PARA stands for:
+Welcome to my personal Obsidian knowledge vault.
 
-- **Projects**: Short-term efforts with clear goals and deadlines
-    
-- **Areas**: Long-term responsibilities or spheres of activity
-    
-- **Resources**: Topics or interests you're researching or learning
-    
-- **Archives**: Inactive or completed items no longer actively used
-    
+This workspace is organized using the [PARA Method](https://fortelabs.com/blog/para/) — a simple framework for managing projects, areas of responsibility, reference materials, and archives.
 
-In addition, this vault includes `Inbox` and `Templates` folders to support quick capture and reuse.
+## 📂 Structure Overview
 
----
-
-## Folder Structure
-
-```bash
+```
 .
-├── Inbox/           # Unprocessed notes and quick captures
-├── Projects/        # Active, goal-oriented efforts
-├── Areas/           # Ongoing responsibilities and systems
-├── Resources/       # Reference material and tutorials
-├── Archives/        # Completed or inactive materials
-├── Templates/       # Reusable note and task formats
+├── Inbox/       # Unprocessed notes
+├── Projects/    # Active efforts
+├── Areas/       # Ongoing responsibilities
+├── Resources/   # Reference materials
+├── Archives/    # Inactive notes
+├── Templates/   # Reusable note formats
+├── Meta/        # Vault documentation and structure guides
 ```
 
----
+## 📘 Internal Docs
 
-## Folder Mappings
+For details on the vault structure and organizational strategy, see:
 
-### 📥 Inbox
-
-- `inbox/`
-    
-
-### 🗂 Projects
-
-- `projects/`
-    
-- `dotfiles/`
-    
-- `argo/`
-    
-- `neovim/`
-    
-- `zsh/`
-    
-- `languages/python/pytest/`
-    
-- `Study Roadmap.md`
-    
-
-### 🧭 Areas
-
-- `areas/`
-    
-- `kubernetes/`
-    
-- `tmux/`
-    
-- `vim/`
-    
-- `mac/`
-    
-- `keyboard/`
-    
-- `Keyboard Customization for MacOS.md`
-    
-- `zsh/`
-    
-- `neovim/`
-    
-- `systems.md`
-    
-
-### 📚 Resources
-
-- `resources/`
-    
-- `languages/`
-    
-    - `c/`, `c++/`, `go/`, `lua/`, `ocaml/`, `python/`, `rust/`, `swift/`, `zig/`
-        
-- `awk/`, `sed/`, `grep/`, `Make.md`
-    
-- `git/`
-    
-- `vimium/`
-    
-- `notes/` (may be split into relevant Areas or Resources)
-    
-
-### 🗄 Archives
-
-- `archives/`
-    
-- Old content from `projects/`, `notes/`, etc.
-    
-
-### 🧰 Templates
-
-- `templates/`
-    
+👉 [`Meta/README.md`](Meta/README.md)
 
 ---
 
-## Notes
-
-- You can optionally add a `Meta/` folder for vault-level documentation like this `README.md`.
-    
-- Tags and internal links are encouraged to cross-reference notes across PARA categories.
-    
-- Review your `Inbox/` weekly and archive or promote notes to appropriate folders.
-    
-
----
-
-This structure is designed for scalability and clarity across personal projects, lifelong learning, and ongoing system customization.
+> This vault is optimized for clarity, modularity, and long-term maintainability.
