@@ -51,6 +51,24 @@ The `-w` flag tells `kubectl` to wait until all pods show STATUS: Running.
 
 ## Step 4. Expose ArgoCD API Server
 
+If you enabled LoadBalancer support via Canonical k8s, expose ArgoCD's server:
+
+```shell
+kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
+```
+
+Then get the external IP:
+
+```shell
+kubectl get svc argocd-server -n argocd
+```
+
+Once the EXTERNAL-IP is available, open in browser:
+
+```plaintext
+http://<EXTERNAL-IP>
+```
+
 ## Step 5. Get Initial Admin Password
 
 The defaul tlogin is:
