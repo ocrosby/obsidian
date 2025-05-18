@@ -3,4 +3,4 @@
 - [[70 - Terminal & CLI Tools/Neovim/configuration]]
 
 ## Plugins
-- [[plugins]]
+- [[notes/70 - Terminal & CLI Tools/Neovim/plugins]]
