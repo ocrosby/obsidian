@@ -1,49 +1,121 @@
+# Obsidian Vault Organization (PARA Method)
+
+This Obsidian vault follows the [PARA method](https://fortelabs.com/blog/para/) for digital organization. PARA stands for:
+
+- **Projects**: Short-term efforts with clear goals and deadlines
+    
+- **Areas**: Long-term responsibilities or spheres of activity
+    
+- **Resources**: Topics or interests you're researching or learning
+    
+- **Archives**: Inactive or completed items no longer actively used
+    
+
+In addition, this vault includes `Inbox` and `Templates` folders to support quick capture and reuse.
+
 ---
-id: Development
-aliases:
-  - Development
-tags:
-  - dev
+
+## Folder Structure
+
+```bash
+.
+├── Inbox/           # Unprocessed notes and quick captures
+├── Projects/        # Active, goal-oriented efforts
+├── Areas/           # Ongoing responsibilities and systems
+├── Resources/       # Reference material and tutorials
+├── Archives/        # Completed or inactive materials
+├── Templates/       # Reusable note and task formats
+```
+
 ---
 
-My development workflow is changing as of late. I am embracing a Neovim+Tmux development environment which is changing a lot about how I work.  I will do my best to keep documenting my journey here.
+## Folder Mappings
 
-## Text Editor Tools
+### 📥 Inbox
 
-### Vim
+- `inbox/`
+    
 
-- [[Basic Vim Commands]]
-- [[editing]]
-- [[saving-and-exiting]]
-- [[searching]]
-- [[Visual Mode]]
-- [[miscellaneous]]
+### 🗂 Projects
 
-### Neovim
+- `projects/`
+    
+- `dotfiles/`
+    
+- `argo/`
+    
+- `neovim/`
+    
+- `zsh/`
+    
+- `languages/python/pytest/`
+    
+- `Study Roadmap.md`
+    
 
-* [[neovim/README]]
-* [[keymaps-reference]]
-* [[neovim/Plugins/README]]
+### 🧭 Areas
 
-### Tmux
+- `areas/`
+    
+- `kubernetes/`
+    
+- `tmux/`
+    
+- `vim/`
+    
+- `mac/`
+    
+- `keyboard/`
+    
+- `Keyboard Customization for MacOS.md`
+    
+- `zsh/`
+    
+- `neovim/`
+    
+- `systems.md`
+    
 
-* [[An Introduction to Tmux]]
+### 📚 Resources
 
-### Python
+- `resources/`
+    
+- `languages/`
+    
+    - `c/`, `c++/`, `go/`, `lua/`, `ocaml/`, `python/`, `rust/`, `swift/`, `zig/`
+        
+- `awk/`, `sed/`, `grep/`, `Make.md`
+    
+- `git/`
+    
+- `vimium/`
+    
+- `notes/` (may be split into relevant Areas or Resources)
+    
 
-#### [[languages/python/pytest/README]]
+### 🗄 Archives
 
-#### [[pytest-bdd]]
+- `archives/`
+    
+- Old content from `projects/`, `notes/`, etc.
+    
 
-#### [[pytest-mocking]]
+### 🧰 Templates
 
-### Dotfiles
+- `templates/`
+    
 
-#### [[dotfiles/README]]
+---
 
-## [[Make]]
-## [[Zsh]]
+## Notes
 
-[Build a Telescope Extension for Neovim](https://www.youtube.com/watch?v=ZCkG47xGOl4)
+- You can optionally add a `Meta/` folder for vault-level documentation like this `README.md`.
+    
+- Tags and internal links are encouraged to cross-reference notes across PARA categories.
+    
+- Review your `Inbox/` weekly and archive or promote notes to appropriate folders.
+    
 
+---
 
+This structure is designed for scalability and clarity across personal projects, lifelong learning, and ongoing system customization.
