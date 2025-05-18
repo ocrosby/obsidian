@@ -6,7 +6,7 @@ argocdc-app-config
 
 On my Ubuntu server I utilized [Canonical Kubernetes](https://ubuntu.com/kubernetes) to setup a Kubernetes environment for experimentation.
 
-***Create a symbolic link to kubectl relative to snap***
+**Create a symbolic link to kubectl relative to snap**
 
 ```shell
 ln -s /snap/k8s/current/bin/kubectl /usr/local/bin/kubectl
@@ -18,16 +18,21 @@ This makes it so you don't have to execute `sudo k8s kubectl` all the time.
 
 Reference the [Getting Started guide for ArgoCD](https://argo-cd.readthedocs.io/en/stable/getting_started/)
 
-**Create a namespa
+**Create a namespace for ArgoCD**
 
 ```shell
 kubctl create namespace argocd
+```
+
+## Step 2. Install ArgoCD Core Components
+
+```shell
 kubctl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
-This will create a new namespace, argocd, where Argo CD services and application resources will live.
+This installs the specified manifest in the argocd namespace.
 
-This installs:
+The following core components will be installed:
 
 - ArgoCD API server
 - UI
@@ -36,13 +41,13 @@ This installs:
 - Dex (for login/auth)
 
 
-**Check Installation Progress**
+## Step 3. Check Installation Progress
 
 ```shell
 kubectl get pods -n argocd -w
 ```
 
-Wait until all pods show STATUS: Running.
+The `-w` flag tells `kubectl` to wait until all pods show STATUS: Running.
 
 ## Step 4. Expose ArgoCD API Server
 
