@@ -2,7 +2,10 @@
 aliases: ["Kubernetes"]
 ---
 
+# Kubernetes
+
  provides numerous abstractions and APIs that make it easier to build decoupled microservices architectures.
+ 
 - Pods, or groups of containers, can group together container images developed by different teams into a single deployable unit.
 - Kubernetes services provide load balancing, naming, and discovery to isolate one microservice from another.
 - Namespaces provide isolation and access control, so that each microservice can control the degree to which other services interact with it.
@@ -17,4 +20,10 @@ A Kubernetes cluster consists of two types of resources:
 
 Control Planes manage the cluster and the nodes that are used to host the running applications.
 
-**A node is a VM or a physical computer that serves as a worker machine in a Kubernetes cluster.** Each node has a `Kublet`, which is an agent for managing the node and communicating with the Kubernetes control plane.
+**A node is a VM or a physical computer that serves as a worker machine in a Kubernetes cluster.** Each node has a `Kublet`, which is an agent for managing the node and communicating with the Kubernetes control plane. The node should also have too
+
+
+
+## References
+
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
