@@ -24,7 +24,11 @@ Control Planes manage the cluster and the nodes that are used to host the runnin
 
 Note: A Kubernetes cluster that handles production traffic should have a minimum of three nodes because if one node goes down, both an `etcd` member  and a control plane instance are lost, and redundancy is compromised. You can mitigate this risk by adding more control plane nodes.
 
-When you deploy applications on Kubernetes, you tell the control plane to start 
+When you deploy applications on Kubernetes, you tell the control plane to start the application containers. The control plane schedules the containers to run on the cluster's nodes. **Node-level components, such as the kublet, communicate with the control plane using the Kubernetes API**, which the control plane exposes. End users can also use the Kubernetes API directly to interact with the cluster.
+
+A Kubernetes cluster can be deployed on either physical or virtual machines. To get started with Kubernetes development, you can use `Minikube`. Minikube is a lightweight Kubernetes implementation that creates a VM on your local machine and deploys a simple cluster containing only one node. Minikube is available for Linux, macOS, and Windows systems. The Minikube CLI provides basic bootstrapping operations for working with your cluster, including start, stop, status, and delete.
+
+
 
 
 
