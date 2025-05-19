@@ -35,6 +35,14 @@ A Kubernetes cluster can be deployed on either physical or virtual machines. To 
 brew install kubectl
 ```
 
+Verify the installation:
+
+```shell
+kubectl version
+```
+
+
+
 
 ## References
 
