@@ -41,6 +41,8 @@ Verify the installation:
 kubectl version
 ```
 
+Check that kubectl is properly configured by getting the cluster state:
+
 ```shell
 kubectl cluster-info
 ```
