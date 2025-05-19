@@ -35,3 +35,4 @@ A Kubernetes cluster can be deployed on either physical or virtual machines. To 
 ## References
 
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+- [Install and Set Up kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#install-kubectl-binary-with-curl-on-macos)
