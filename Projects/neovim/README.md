@@ -31,3 +31,7 @@ Neovim improves upon Vim in several key areas:
 - 📦 **Terminal emulator** built in
 
 - 🧘 **Minimal and distraction-free** workflow for serious coding and writing
+
+## References
+
+- [Watch this video for Python IDE setup](https://www.youtube.com/watch?v=VljhZ0e9zGE&t=830s)
