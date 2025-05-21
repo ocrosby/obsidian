@@ -4,7 +4,11 @@ aliases: ["Kubernetes"]
 
 # Kubernetes
 
- provides numerous abstractions and APIs that make it easier to build decoupled microservices architectures.
+## What is it?
+
+Kubernetes is an container orchestration tool.
+ 
+It provides numerous abstractions and APIs that make it easier to build decoupled microservices architectures.
  
 - Pods, or groups of containers, can group together container images developed by different teams into a single deployable unit.
 - Kubernetes services provide load balancing, naming, and discovery to isolate one microservice from another.
