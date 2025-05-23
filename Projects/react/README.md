@@ -20,3 +20,14 @@ You will need to first install [Node.js](https://nodejs.org/en). Typically I ins
 
 You will utilize [Vite](https://vite.dev/) to scaffold a new react environment so make sure to install that after installing `Node`.
 
+#### Scaffolding your First Vite Project
+
+```shell
+npm create vite@latest
+```
+
+The follow the prompts.
+
+The [React + Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react) template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Since most of the time you will be creating a `React` application using [TypeScript](https://www.typescriptlang.org/) I would recommend using the [React + TypeScript + Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) template.
