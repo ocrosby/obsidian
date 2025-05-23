@@ -32,8 +32,20 @@ The [React + Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite
 
 Since most of the time you will be creating a `React` application using [TypeScript](https://www.typescriptlang.org/) I would recommend using the [React + TypeScript + Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) template.
 
+**Let Vite walk you through the creation process interactively:**
+
 ```shell
-npm create vite@latest my-react-app -- --template react-ts
+npm create vite@latest <project-name>
+npm install
+```
+
+**Using the template explicitly:**
+
+```shell
+npm create vite@latest <project-name> -- --template react-ts
+npm install
 ```
 
 Note: You can use `.` for the project name to scaffold in the current directory.
+
+Note: After scaffolding a new react application with `vite` you will need to run `npm install` ti
