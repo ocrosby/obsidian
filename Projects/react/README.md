@@ -34,6 +34,8 @@ Since most of the time you will be creating a `React` application using [TypeScr
 
 **Let Vite walk you through the creation process interactively:**
 
+In the examples below replace `<project-name>` with your project name, for example `my-react-app`.
+
 ```shell
 npm create vite@latest <project-name>
 npm install
