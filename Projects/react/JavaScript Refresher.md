@@ -8,4 +8,14 @@ Thanks to [Node.js](https://nodejs.org/en) or [Deno](https://deno.com/) JavaScri
 
 With extra technologizes like [Capacitor](https://capacitorjs.com/) or [React Native](https://reactnative.dev/) you can build mobile apps based on JavaScript.
 
-## Adding JavaScript C
+## Adding JavaScript Code to a Website
+
+### Between <script> Tags
+
+```html
+<html>
+<script>
+alert('Hello')
+</script>
+</html>
+```
