@@ -48,4 +48,17 @@ npm install
 
 Note: You can use `.` for the project name to scaffold in the current directory.
 
-Note: After scaffolding a new react application with `vite` you will need to run `npm install` ti
+Note: After scaffolding a new react application with `vite` you will need to run `npm install` to install all of the `Node.js` dependencies.
+
+#### Running a Development Server
+
+After installing all of the dependencies enter the following command to start a development server:
+
+```shell
+npm run dev
+```
+
+This will start a development server that should be running with live-reload so you can see the changes to your application while working.
+
+In the code sandbox case you don't need to run `npm install` or `npm run dev`. That environment will automatically run your application and show you what it looks like interactively.
+
