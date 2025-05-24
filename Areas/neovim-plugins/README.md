@@ -34,6 +34,11 @@ There are a few plugin templates but this is the best IMO
 [Plugin Template](https://github.com/nvimdev/nvim-plugin-template)
 
 
+## Development Tools
+
+- nvim-dap (for debugging)
+- vusted (for testing)
+- one-small-step-for-vimkind (for dap lua adapter)
 
 
 
