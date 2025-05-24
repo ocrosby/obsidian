@@ -27,6 +27,12 @@ I really like the plugins I've seen from [Tim Pope](https://github.com/tpope) on
 Plugins are about packaging, deployment, and sharing
 
 
+## Creating a plugin repository
+
+There are a few plugin templates but this is the best IMO
+
+
+
 
 ## References
 
