@@ -46,6 +46,7 @@ There are a few plugin templates but this is the best IMO
 ## References
 
 - [How to Develop Neovim Plugins in Lua](https://www.youtube.com/watch?v=yN04HCeOjmo)
+- [Cloud-Native Corner Dotfiles](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazZOYWVaYmN1YVU4UHRBbEVfaHNwN3ZmMUlSZ3xBQ3Jtc0tuVkdRQy1xdmxQLS10WV9kY2RMWUhGQzVsejhIMS1SdU1XUnFTQ1BYeldzWlhmRWlPbjZ4aFVlUndGRGh3NEpEWjQtYzhmZUxIcXZyNXVRRERQOWo5clQzNG9MN0t1YkZuYmpFdURNNFYyNDFpaldRaw&q=https%3A%2F%2Fgithub.com%2FPiotr1215%2Fdotfiles%2Ftree%2Fmaster%2F.config%2Fnvim&v=yN04HCeOjmo)
 - [Luapad](https://github.com/rafcamlet/nvim-luapad)
 - [LazyDev](https://github.com/folke/lazydev.nvim)
 - [nvim-luaref](https://github.com/emiasims/nvim-luaref)
