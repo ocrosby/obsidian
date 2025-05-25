@@ -1,3 +1,6 @@
+---
+aliases: ["Editing"]
+---
 
 - `i`: Enter insert mode before the cursor. 
 - `I`: Enter insert mode at the beginning of the line. 
@@ -21,6 +24,10 @@
 Note: `dd` deletes a line but it also stores it in a Vim register.
 
 The Vim register can be then used by the put command `p` which will put the contents of the register on the line after the cursor.
+
+## What is a change?
+
+Everything you execute while in insert mode (up until you hit `Esc` to exit insert mode) is considered a change. So you can do multiple things then essentially replay the last "change" by using the dot command.
 
 ## The Replace Command
 
