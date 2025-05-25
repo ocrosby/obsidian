@@ -27,7 +27,7 @@ The Vim register can be then used by the put command `p` which will put the cont
 
 ## What is a change?
 
-Everything you execute while in insert mode (up until you hit `Esc` to exit insert mode) is considered a change. So you can do multiple things then essentially replay the last "change" by using the dot command.
+Everything you execute while in insert mode (up until you hit `Esc` to exit insert mode) is considered a change. So you can do multiple things then essentially replay the last "change" by using the dot command. In that sense the dot command is a minature macro.
 
 ## The Replace Command
 
