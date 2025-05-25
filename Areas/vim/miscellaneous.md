@@ -1,5 +1,5 @@
 ---
-aliases: ["Miscellaneous ]
+aliases: ["Miscellaneous"]
 ---
 
 - `.`: Repeat the last command.
@@ -21,4 +21,5 @@ The `>G` command increases indentation.
 
 The `<G` command decreases indentation.
 
-Note: Remember you can use the `dot commmand` to "repeat the last command"
+Note: Remember you can use the `dot commmand` to "repeat the last command".
+
