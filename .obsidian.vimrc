@@ -1,1 +1,3 @@
-inoremap jk <Esc> 
+inoremap jk <Esc>
+inoremap jj <Esc>
+
