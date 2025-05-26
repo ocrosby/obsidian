@@ -30,4 +30,24 @@ alert('Hello')
 <script src="assets/scripts/app.js" defer></script>
 ```
 
-This would defer the execution of the Javascript file until after the body of the document is read and parsed. If the script code needs to deal with the executio
+This would defer the execution of the Javascript file until after the body of the document is read and parsed. If the script code needs to deal with html elements in the body of the document and begins executing immediately it may attempt to reference elements that are not available yet.
+
+### Using module type
+
+```html
+<script src="assets/scripts/app.js" type="module"></script>
+```
+
+This unlocks the import syntax within the `app.js` file.
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Refresher</title>
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <meta charset=="UTF-8" />
+    <script src="assets/scripts/app.js" type="module" defer></script>
+  </head>
+</html>
+```
