@@ -10,9 +10,24 @@ With extra technologizes like [Capacitor](https://capacitorjs.com/) or [React Na
 
 ## Adding JavaScript Code to a Website
 
-### Between <script> Tags
+### Between script tags
 
-### Via <script> Import
+```html
+<script>
+alert('Hello')
+</script>
+```
+
+### Via Script Import 
+
 ```html
 <script src="script.js"></script>
 ```
+
+### Using defer
+
+```html
+<script src="assets/scripts/app.js" defer></script>
+```
+
+This would defer the execution of the Javascript file until after the body of the document is read and parsed. If the script code needs to deal with the executio
