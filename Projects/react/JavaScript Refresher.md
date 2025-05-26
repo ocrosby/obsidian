@@ -49,5 +49,12 @@ This unlocks the import syntax within the `app.js` file.
     <meta charset=="UTF-8" />
     <script src="assets/scripts/app.js" type="module" defer></script>
   </head>
+  <body>
+  ...
+  </body>
 </html>
 ```
+
+Note: The react build process injects script tag .
+
+	Your code is transformed behind the scenes. This happens by a translator in `react-scripts` (see the package.json fil)
