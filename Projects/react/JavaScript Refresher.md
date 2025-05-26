@@ -12,10 +12,7 @@ With extra technologizes like [Capacitor](https://capacitorjs.com/) or [React Na
 
 ### Between <script> Tags
 
+### Via <script> Import
 ```html
-<html>
-<script>
-alert('Hello')
-</script>
-</html>
+<script src="script.js"></script>
 ```
