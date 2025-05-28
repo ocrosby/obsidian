@@ -50,5 +50,9 @@ The Nix Packages collection (Nixpkgs) is a set of thousands of packages for the 
 
 Nix requires a restart of your terminal environment once installed, so shut everything down and start a new terminal session.
 
+### Install Nix Packages
 
+```shell
+nix run 'nixpkgs#hello'
+```
 
