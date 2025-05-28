@@ -44,7 +44,7 @@ The Nix Packages collection (Nixpkgs) is a set of thousands of packages for the 
 - [Nixpkgs Manual](https://nixos.org/manual/nixpkgs/stable)
 - [First Steps](https://nix.dev/tutorials/first-steps/)
 - [How Nix works](https://nixos.org/guides/how-nix-works/)
-
+- [Getting Started with Nix - Video](https://www.youtube.com/watch?v=xXlCcdPz6Vc)
 
 ## Post-Installation
 
