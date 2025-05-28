@@ -28,4 +28,18 @@ build-users-group = nixbld
 experimental-features = nix-command flakes
 ```
 
+Nix flakes are a big paradigm shift in the nix community.
+
+### 
+
+- [First Steps](https://nix.dev/tutorials/first-steps/)
+- [How Nix works](https://nixos.org/guides/how-nix-works/)
+-  
+- [Nixpkgs Manual](https://nixos.org/manual/nixpkgs/stable)
+
+## Post-Installation
+
+Nix requires a restart of your terminal environment once installed, so shut everything down and start a new terminal session.
+
+
 
