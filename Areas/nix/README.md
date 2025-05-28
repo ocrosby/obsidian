@@ -30,12 +30,21 @@ experimental-features = nix-command flakes
 
 Nix flakes are a big paradigm shift in the nix community.
 
-### 
+## Nix Manual
 
+Nix is a package manager which comes in a form of many command line tools. Packages that Nix can build are defined with the Nix Expression Language.
+
+## Nixpkgs Manual
+
+The Nix Packages collection (Nixpkgs) is a set of thousands of packages for the Nix package manager and NixOS Linux distribution.
+
+## References
+
+- [Nix Manual](https://nixos.org/manual/nix/stable)
+- [Nixpkgs Manual](https://nixos.org/manual/nixpkgs/stable)
 - [First Steps](https://nix.dev/tutorials/first-steps/)
 - [How Nix works](https://nixos.org/guides/how-nix-works/)
--  
-- [Nixpkgs Manual](https://nixos.org/manual/nixpkgs/stable)
+
 
 ## Post-Installation
 
