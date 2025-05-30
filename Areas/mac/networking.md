@@ -28,10 +28,13 @@ route get default
 ping -c 4 <gateway_address>
 ```
 
-Where <gateway_address> is whatever the `route get default` command returned.
+Where `<gateway_address>` is whatever the `route get default` command returned.
 
 ## Ping one of the Google DNS
 
 ```shell
-ping -c 4 8.8.
+ping -c 4 8.8.8.8
 ```
+
+This checks to see if you are getting to the internet.
+
