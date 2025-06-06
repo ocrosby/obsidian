@@ -38,7 +38,7 @@ Invite team members to collaborate on your documentation. GitBook supports real-
 
 ### Integrate with Git (Optional)
 
-Connect your GitBook space to a Git repository for version control. This allows you to sync your doucmentation with your code repository.
+Connect your GitBook space to a Git repository for version control. This allows you to sync your documentation with your code repository.
 
 ### Publish Your Documentation
 
