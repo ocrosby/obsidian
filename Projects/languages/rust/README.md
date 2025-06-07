@@ -261,7 +261,27 @@ Rust's `char` type is four bytes in size and represents a Unicode scalar value.
 
 ## Compound Types
 
-`Compound Types` can group multiple values 
+`Compound Types` can group multiple values into one type.
+
+Rust has two primitive compound types: tuples and arrays.
+
+### The Tuple Type
+
+A `tuple` is a general way of grouping together a number of values with a variety of types into one compound type. Tuples have a fixed length: once declared, they cannot grow or shrink in size.
+
+```rust
+fn main() {
+	let tup: (i32, f64, u8) = (500, 6.4, 1);
+}
+```
+
+#### Destructuring Tuple Values
+
+```rust
+fn main() {
+	
+}
+```
 
 
 
