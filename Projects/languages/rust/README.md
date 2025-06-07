@@ -333,6 +333,22 @@ fn main() {
 }
 ```
 
+Here we initialize an array to contain the same value for each element by specifying the initial value, followed by a semicolon, and then the length of the array in square brackets. So this example creates an array of 5 integers initialized to 3.
+
+### Accessing Array Elements
+
+An array is a single chunk of memory of a known, fixed size that can be allocated on the stack. You can access elements of an array using indexing, like this:
+
+```rust
+fn main() {
+	let a = [1, 2, 3, 4, 5];
+
+	let first = a[0]; // 1
+	let second = a[1]; // 2
+}
+```
+
+
 
 
 
