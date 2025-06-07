@@ -125,6 +125,15 @@ rustc hello.rs
 ./hello
 ```
 
+## Data Types
+
+Rust is a statically typed language, which means that it must know the types of all variables at compile time.
+
+### Data Type Subsets
+
+- scalar
+- compound
+
 
 
 
