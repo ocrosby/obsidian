@@ -197,8 +197,49 @@ Floating-point numbers are represented according to the IEEE-754 standard.
 
 ## Numerical Operations
 
-- 
+- addition
+- subtraction
+- multiplication
+- division
+- remainder
 
+Integer division truncates toward zero to the nearest integer.
+
+```rust
+fn main() {
+	// addition
+	let sum = 5 + 10;
+
+	// subtraction
+	let difference = 95.5 - 4.3;
+
+	// multiplication
+	let product = 4 * 30;
+
+	// division
+	let quotient = 56.7 / 32.2;
+	let truncated = -5 / 3; // Results in -1
+
+	// remainder
+	let remainder = 43 % 5;
+}
+```
+
+## The Boolean Type
+
+Two possible values `true` and `false`.
+
+Booleans are one byte in size.
+
+The Boolean type in Rust is specified using `bool`.
+
+```rust
+fn main() {
+	let t = true;
+
+	
+}
+```
 
 ## References
 
