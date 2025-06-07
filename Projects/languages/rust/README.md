@@ -302,8 +302,21 @@ fn main() {
 
 Note: Tuples are 0 based.
 
+The tuple without any values has a special name, `unit`. This value and it's corresponding type are both written `()` and represent an empty value or an empty return type. Expressions implicitly return the unit value if they don't return any other value.
 
+## The Array Type
 
+Unlike a tuple, every element of an array must have the same type.
+
+Arrays in Rust have a fixed length.
+
+```rust
+fn main() {
+	let a = [1, 2, 3, 4, 5];
+}
+```
+
+Arrays are useful when you want your data allocated on the stack rather than the heap or you want to ensure you always have a fixed number of elements.
 ## References
 
 - [Rust Website](https://www.rust-lang.org/)
