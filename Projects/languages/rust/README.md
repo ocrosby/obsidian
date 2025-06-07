@@ -156,6 +156,14 @@ A scalar type represents a single value. Rust has four primary scalar types:
 - `isize` signed integer (arch)
 - `usize` unsigned integer (arch)
 
+Signed numbers are stored using two's complement representation.
+
+Each signed variant can store numbers from $-(2^(n-1))$ to $2^(n-1)-1$ inclusive, where `n` is the number of bits that variant uses.
+
+Unsigned variants can store numbers from 0 to $2^(n)-1$.
+
+So `i8` can store numbers from -128 to 127. and `u8` can store numbers from 0 to 255.
+
 
 
 
