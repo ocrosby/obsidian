@@ -134,7 +134,19 @@ Rust is a statically typed language, which means that it must know the types of 
 - scalar
 - compound
 
+#### Scalar Types
 
+A scalar type represents a single value. Rust has four primary scalar types:
+
+- Integers
+- Floating-Point Numbers
+- Booleans
+- Characters
+
+#### Integer Types
+
+- `u32` unsigned integer (32 bit)
+- 
 
 
 ## References
