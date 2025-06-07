@@ -15,6 +15,22 @@ To test that you have Rust and Cargo installed, you can run this in your termina
 
 `cargo --version`
 
+## Comments
+
+Single line comments can be specified as follows:
+
+```rust
+// whatever you want to say
+```
+
+Multi-line comments can be specified as follows:
+
+```rust
+/*
+be
+explici*/
+```
+
 ## Variables
 
 Variables are declared as follows.
@@ -23,8 +39,22 @@ Variables are declared as follows.
 let x = 5;
 ```
 
-In rust variables are immutable by default so no other value can be 
+In rust variables are immutable by default so no other value can be assigned to x after it has been declared this way.
 
+It is possible to provide mutability using the `mut` keyword.
+
+```rust
+let mut x = 5;
+```
+
+
+## Functions
+
+```rust
+fn main() {
+	// ...
+}
+```
 
 ## References
 
