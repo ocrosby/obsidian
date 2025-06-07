@@ -3,6 +3,9 @@
 
 Rust is a modern systems programming language focusing on safety, speed, and concurrency. It accomplishes these goals by being memory safe without using garbage collection.
 
+- [Rust Documentation](https://doc.rust-lang.org/stable/)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+
 
 
 ### Cargo: the Rust build tool and package manager
