@@ -57,7 +57,21 @@ let mut x = 5;
 
 ### Shadowing
 
+You can declare a new variable with the same name as a previous variable. The first variable is sead to be `shadowed` by the second, which means that the second variable is what the compiler will see when you use the name of the variable. In effect, the second variable overshadows the first, taking any uses of the variable name to itself until either it itself is shadowed or the scope ends. We can shadow a variable using the same variable's name and repeating the use of the `let` keyword.
 
+```rust
+fn main() {
+	let x = 5;
+	let x = x + 1;
+
+	{
+		let x = x * 2;
+		println!("The value of x in the inner scope is {x}");
+	}
+
+	println!("The value of x in the outer scope is {x}");
+}
+```
 
 ## Constants
 
