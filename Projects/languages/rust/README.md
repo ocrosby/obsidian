@@ -317,6 +317,25 @@ fn main() {
 ```
 
 Arrays are useful when you want your data allocated on the stack rather than the heap or you want to ensure you always have a fixed number of elements.
+
+
+```rust
+fn main() {
+	let a: [i32; 5] = [1, 2, 3, 4, 5]; // with explicit type annotation
+}
+```
+
+Here, `i32` is the type of each element. After the semicolon, the number 5 indicates the array contains five elements.
+
+```rust
+fn main() {
+	let a = [3; 5];	
+}
+```
+
+
+
+
 ## References
 
 - [Rust Website](https://www.rust-lang.org/)
