@@ -15,7 +15,15 @@ To test that you have Rust and Cargo installed, you can run this in your termina
 
 `cargo --version`
 
+## Variables
 
+Variables are declared as follows.
+
+```rust
+let x = 5;
+```
+
+In rust variables are immutable by default so no other value can be 
 
 
 ## References
