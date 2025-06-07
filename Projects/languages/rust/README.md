@@ -61,15 +61,15 @@ You can declare a new variable with the same name as a previous variable. The fi
 
 ```rust
 fn main() {
-	let x = 5;
-	let x = x + 1;
+	let x = 5; // x is 5
+	let x = x + 1; // x is 6
 
 	{
-		let x = x * 2;
+		let x = x * 2; // x is 6*2 or 12
 		println!("The value of x in the inner scope is {x}");
 	}
 
-	println!("The value of x in the outer scope is {x}");
+	println!("The value of x in the outer scope is {x}"); // x is 6
 }
 ```
 
