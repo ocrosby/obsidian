@@ -176,6 +176,29 @@ So `i8` can store numbers from -128 to 127. and `u8` can store numbers from 0 to
 
 Note: Integer types default to `i32`. The primary situation in which you'd use `isize` or `usize` is when indexing some sort of collection.
 
+#### Floating Point Types
+
+Rust has two primitive types for `floating-point` numbers.
+
+- `f32` (single precision floating-point number)
+- `f64` (double precision floating-point number)
+
+The default type for a floating-point number is `f64`.
+
+```rust
+fn main() {
+	let x = 2.0; // f64
+
+	let y: f32 = 3.0; // f32
+}
+```
+
+Floating-point numbers are represented according to the IEEE-754 standard.
+
+## Numerical Operations
+
+- 
+
 
 ## References
 
