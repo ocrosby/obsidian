@@ -145,8 +145,18 @@ A scalar type represents a single value. Rust has four primary scalar types:
 
 #### Integer Types
 
+- `i8` signed integer (8 bit)
+- `u8` unsigned integer (8 bit)
+- `i16` signed integer (16 bit)
+- `u16` unsigned integer (16 bit)
+- `i32` signed integer (32 bit)
 - `u32` unsigned integer (32 bit)
-- 
+- `i128` signed integer (128 bit)
+- `u128` unsigned integer (128 bit)
+- `isize` signed integer (arch)
+- `usize` unsigned integer (arch)
+
+
 
 
 ## References
