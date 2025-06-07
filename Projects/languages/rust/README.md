@@ -237,9 +237,33 @@ The Boolean type in Rust is specified using `bool`.
 fn main() {
 	let t = true;
 
-	
+	let f: bool = false; // with explicit type annotation
 }
 ```
+
+## The Character Type
+
+The languages most primitive alphabetic type.
+
+The Char type in Rust is specified using `char`.
+
+```rust
+fn main() {
+	let c = 'z';
+	let z: char = 'Z'; // with explicit type annotation
+	let heart_eyed_cat = '?';
+}
+```
+
+We specify char literals with single quotes, as opposed to string literals, which use double quotes.
+
+Rust's `char` type is four bytes in size and represents a Unicode scalar value.
+
+## Compound Types
+
+`Compound Types` can group multiple values 
+
+
 
 ## References
 
