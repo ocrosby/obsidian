@@ -55,6 +55,21 @@ It is possible to provide mutability using the `mut` keyword.
 let mut x = 5;
 ```
 
+## Constants
+
+Like immutable variables, constants are values that are bound to a name and are not allowed to change, but there are a few differences between constants and variables.
+
+You aren't allowed to use `mut` with constants. Constants aren't just immutable by default they  are always immutable. You declare constants using the `const` keyword instead of the `let` keyword, and the type of the value must be included.
+
+Constants can be declared in any scope, including the global scope.
+
+Constants may be set only to a constant expression, not the result of a value that could only be computed at runtime.
+
+
+
+```rust
+const ALPHA: u32 = 
+```
 
 ## Functions
 
