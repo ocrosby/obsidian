@@ -171,6 +171,11 @@ So `i8` can store numbers from -128 to 127. and `u8` can store numbers from 0 to
 - Decimal (98_222 or 98222)
 - Hex (0xff)
 - Octal (Oo77)
+- Binary (0b1111_0000)
+- Byte (u8 only) (b'A')
+
+Note: Integer types default to `i32`. The primary situation in which you'd use `isize` or `usize` is when indexing some sort of collection.
+
 
 ## References
 
