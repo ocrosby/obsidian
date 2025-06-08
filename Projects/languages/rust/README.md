@@ -114,6 +114,9 @@ fn another_function() {
 }
 ```
 
+### Parameters
+
+We can define functions to have parameters, which are special variables that are part of a functions signature.
 
 ## Hello World
 
