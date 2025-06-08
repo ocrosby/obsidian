@@ -116,7 +116,25 @@ fn another_function() {
 
 ### Parameters
 
-We can define functions to have parameters, which are special variables that are part of a functions signature.
+We can define functions to have parameters, which are special variables that are part of a 
+functions signature.
+
+```rust
+fn main() {
+	println!("Hello, world!");
+	another_function(5);
+	another_function(6);
+	another_function(7);
+}
+
+fn another_function(x: i32) {
+	println!("The value of x is: {x}");
+}
+```
+
+Here the declaration of `another_function` has one parameter named `x`. The type of `x` is specified as `i32`. When we pass 5 into `another_function`, the `println!` macro puts 5 where the pair of curly brackets containing `x` was in the format string.
+
+In function signatures, you must declare the type of each parameter. This is
 
 ## Hello World
 
