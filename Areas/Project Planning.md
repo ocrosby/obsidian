@@ -63,7 +63,22 @@ This can be done on paper, an iPad, or on a whiteboard.
 
 It catches a ton of user experience issues.
 
-## Step 6l.
+## Step 6. Understand what the future of my project is going to look like
+
+Are the decisions I'm going to make today going to impact me in 6 months.
+
+- is it a hobby project
+- will it need to eventually scale to thousands of users
+
+
+## Step 7. Drill into specific components
+
+## Step 8. Pick my stack
+
+Make the stack fit the project
+
+
+
 
 
 
