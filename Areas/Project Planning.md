@@ -29,6 +29,32 @@ The main point is to
 1. write down exactly what a user should be able to do
 2. how the app is going to work for them
 
+## Step 3. Define your data models
+
+Sketch out each model and the properties that they might need.
+
+Think through all of the data the app is supposed to manipulate.
+
+For example:
+
+### User's Model
+
+- users may have many posts
+
+### Post's Model
+
+- posts may have many comments
+
+### Comment's Model
+
+- comments belong to users & different posts
+
+## Step 4. Nail a Minimum Viable Product (MVP)
+
+For the MVP remove anything previously planned that isn't required for the app to function.
+
+
+
 
 
 
