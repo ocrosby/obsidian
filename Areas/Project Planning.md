@@ -77,7 +77,30 @@ Are the decisions I'm going to make today going to impact me in 6 months.
 
 Make the stack fit the project
 
+## Step 9. Overall development process
 
+### Create a project skeleton
+
+- basic folder structure
+- development environments
+- version control
+
+### Setting up the database and creating data models
+
+### Build the backend routes
+
+- API endpoints
+
+### Frontend interface
+
+- connect to the back end
+
+### Project Iteration
+
+gradually add features
+deploy early and offten
+
+### Automated Deployments and Testing
 
 
 
