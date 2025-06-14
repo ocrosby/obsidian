@@ -53,6 +53,18 @@ For example:
 
 For the MVP remove anything previously planned that isn't required for the app to function.
 
+- what actually matters
+- what gets you to a working prototype fast
+- what doesn't overwhelm you
+
+## Step 5. Draw a simple wireframe or prototype of the app
+
+This can be done on paper, an iPad, or on a whiteboard.
+
+It catches a ton of user experience issues.
+
+## Step 6l.
+
 
 
 
