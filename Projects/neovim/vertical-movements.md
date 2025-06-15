@@ -16,4 +16,3 @@ tags: ["movements","vertical"]
 
 - <Ctrl+U>: it moves the screen half-page up the document
 - <Ctrl+D>: it moves the screen half-page down the document
-- 
