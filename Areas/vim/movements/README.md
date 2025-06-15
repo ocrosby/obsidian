@@ -3,7 +3,7 @@ aliases: ["Movements"]
 tags: ["movement", "movements"]
 ---
 
-## [[verti]]
+## [[vertical]]
 
 ## [[horizontal]]
 
