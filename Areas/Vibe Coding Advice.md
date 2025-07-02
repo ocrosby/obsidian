@@ -44,4 +44,8 @@ Don't be afraid to `git reset head hard`
 
 Use the LLM to write end to end tests. They tend to focus on the unit level by default.
 
+## Bug Fixes
 
+Copy paste the error message back into the LLM.
+
+For more complicated bugs, ask the LLM to think through 3/4 possible causes.
