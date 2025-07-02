@@ -83,3 +83,17 @@ you can copy and paste screen shots into most
 
 Look up Aqua voice
 
+## Refactor Frequently
+
+ask the llm to identify parts of your codebase that seem repetitive or may be candidates for refactoring
+
+## Keep Experimenting
+
+Gemini seems better for whole codebase indexing and coming up with implementation plans
+
+Sonnet 3.7 seems better for implementing code changes
+
+GPT 4.1 seems less 
+
+
+
