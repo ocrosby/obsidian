@@ -56,7 +56,11 @@ If in doubt, switch models. (claud sonnet 3.7, one of the open AI models, gemini
 
 If you do find the source of a bad bug reset all of the changes and give the LLM specific instructions on how to fix that precise bug on a clean codebase.
 
-W
+## Write instructions for the LLM
+
+## Documentation
+
+Try downloading documentation for an API you want to use into a separate folder locally. The LLM will likely have better results interpreting documentation that way.
 
 
 
