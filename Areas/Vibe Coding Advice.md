@@ -1,5 +1,15 @@
 ## Where to start
 
+- Pick Up The Tools
+- Version Control
+- Write Tests
+- Bug Fixes
+- Documentation
+- Functionality
+- Choose Correct Stack
+- Refactor Frequently
+- Keep Experimenting
+
 Tools for new coders
 
 - Replit
@@ -23,4 +33,15 @@ Mark certain features as "won't do" or "too complicated"
 
 Keep a section of ideas for later to tell the LLM that we've considered this but it's out of scope for now. 
 
-Once you have this plan work with the LLM to implement it section by section.
+Once you have this plan work with the LLM to implement it section by section. Explicitly say "let's just do section 2 for now".  Check that it works, run your tests then commit your changes.
+Then have the LLM go back to your plan and mark "section 2" as complete.
+
+## Use Version Control
+
+Don't be afraid to `git reset head hard`
+
+## Write Tests
+
+Use the LLM to write end to end tests. They tend to focus on the unit level by default.
+
+
