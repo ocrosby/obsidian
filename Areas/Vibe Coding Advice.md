@@ -49,3 +49,14 @@ Use the LLM to write end to end tests. They tend to focus on the unit level by d
 Copy paste the error message back into the LLM.
 
 For more complicated bugs, ask the LLM to think through 3/4 possible causes.
+
+Don't make multiple attempts without doing a git reset as the LLM's tend to add cruft.
+
+If in doubt, switch models. (claud sonnet 3.7, one of the open AI models, gemini)
+
+If you do find the source of a bad bug reset all of the changes and give the LLM specific instructions on how to fix that precise bug on a clean codebase.
+
+W
+
+
+
