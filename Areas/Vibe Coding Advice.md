@@ -79,3 +79,7 @@ Small files and modularity are your friend.
 
 you can copy and paste screen shots into most 
 
+## Use voice to interact with your tools
+
+Look up Aqua voice
+
