@@ -63,4 +63,19 @@ If you do find the source of a bad bug reset all of the changes and give the LLM
 Try downloading documentation for an API you want to use into a separate folder locally. The LLM will likely have better results interpreting documentation that way.
 
 
+## Use the LLM as a teacher
+
+Get the LLM to walk through the implementation line by line explaining it to you.
+
+## Functionality
+
+If there is another implementation of something available, check it out and point the LLM at it to get it to implement similar functionality in the system you are working on. (for example OAuth2)
+
+Small files and modularity are your friend.
+
+## Choose Correct Stack
+
+## Use screenshots
+
+you can copy and paste screen shots into most 
 
