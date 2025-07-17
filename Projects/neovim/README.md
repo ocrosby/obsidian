@@ -1,3 +1,8 @@
+---
+aliases: ["An Introduction to Neovim"]
+---
+
+
 # An Introduction to Neovim
 
 ## What is Neovim?
