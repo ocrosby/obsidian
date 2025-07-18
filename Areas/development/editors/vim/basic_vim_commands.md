@@ -1,21 +1,21 @@
 
-## [[Navigation in Vim]]
+## [[navigation_in_vim]]
 
-## [[Vim Motions]]
+## [[vim_motions]]
 
 ## [[editing]]
 
 ## [[searching]]
 
-## [[saving-and-exiting]]
+## [[saving_and_exiting]]
 
-## [[Visual Mode]]
+## [[visual_mode]]
 
 ## [[miscellaneous]]
 
-## [[vim/macros/README]]
+## [[macros/readme]]
 
-## [[An Introduction to VIM Modes]]
+## [[an_introduction_to_vim_modes]]
 
 ---
 

@@ -4,14 +4,14 @@ aliases: ["Vim Macros"]
 # Macros
 
 
-## [[recording-macro]]
+## [[recording_macro]]
 
-## [[replaying-macros]]
+## [[replaying_macros]]
 
-## [[viewing-editing-macros]]
+## [[viewing_editing_macros]]
 
-## [[applying-macros]]
+## [[applying_macros]]
 
-## [[macro-tips]]
+## [[macro_tips]]
 
-## [[macro-cheat-sheet]]
+## [[macro_cheat_sheet]]

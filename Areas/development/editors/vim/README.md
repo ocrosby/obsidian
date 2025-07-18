@@ -3,11 +3,11 @@ aliases: ["Vim Motions"]
 ---
 # Vim Motions
 
-- [[visual-mode]]
-- [[normal-mode]]
-- [[range-motions]]
-- [[macro-application]]
-- [[motion-cheatsheet]]
+- [[visual_mode]]
+- [[normal_mode]]
+- [[range_motions]]
+- [[macro_application]]
+- [[motion_cheatsheet]]
 
 `C-d` move down half the length of a screen
 `C-u` move up half the length of a string

@@ -4,42 +4,42 @@
 This note documents custom Neovim keymaps organized by category. Leader key is set to `<Space>`, local leader to `\`.
 
 
-## 🔀 [[Buffer Management]]
+## 🔀 [[buffer_management]]
 
-## 🪄 [[Visual Mode Enhancements]]
+## 🪄 [[visual_mode_enhancements]]
 
-## 🧪 [[Testing]]
+## 🧪 [[testing]]
 
-## 📜 [[Scrolling and Joining]]
+## 📜 [[scrolling_and_joining]]
 
-## 💾 [[Save and Quit]]
+## 💾 [[save_and_quit]]
 
-## 🪟 [[Window Navigation and Splits]]
+## 🪟 [[window_navigation_and_splits]]
 
-## 🔍 [[Search and Highlight]]
+## 🔍 [[search_and_highlight]]
 
-## 📋 [[Clipboard and Spell]]
+## 📋 [[clipboard_and_spell]]
 
-## 🧠 [[Treesitter Selection]]
+## 🧠 [[treesitter_selection]]
 
-## 🚀 [[Version Control with Neogit]]
+## 🚀 [[version_control_with_neogit]]
 
-## 🚨 [[Trouble Diagnostics]]
+## 🚨 [[trouble_diagnostics]]
 
-## 📸 [[Codesnap]]
+## 📸 [[codesnap]]
 
-## 🤖 [[Copilot]]
+## 🤖 [[copilot]]
 
-## 🐞 [[Dap Debugging]]
+## 🐞 [[dap_debugging]]
 
-## ⚓ [[Harpoon]]
+## ⚓ [[harpoon]]
 
-## 📝 [[Obsidian Integration]]
+## 📝 [[obsidian_integration]]
 
-## 🧘 [[Zen Mode]]
+## 🧘 [[zen_mode]]
 
-## 🍅 [[Pomodoro]]
+## 🍅 [[pomodoro]]
 
-## 📂 [[Session Management]]
+## 📂 [[session_management]]
 
-## 🕵️ [[Telescope Leader Keymap Search]]
+## 🕵️ [[telescope_leader_keymap_search]]
