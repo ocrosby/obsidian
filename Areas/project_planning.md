@@ -1,3 +1,5 @@
+[[readme]]
+
 ## Step 1. Start from your goal
 
 Get crystal-clear on:
