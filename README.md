@@ -4,24 +4,33 @@ Welcome to my personal Obsidian knowledge vault.
 
 This workspace is organized using the [PARA Method](https://fortelabs.com/blog/para/) — a simple framework for managing projects, areas of responsibility, reference materials, and archives.
 
-## 📂 Simplified Structure Overview
+## 📂 Reorganized Structure Overview
 
 ```
 .
 ├── Inbox/                    # Unprocessed notes and quick captures
 ├── Projects/                 # Active projects with clear goals
 │   ├── scout-sleuth/         # College Recruiting Intelligence Platform
-│   ├── neovim-config/        # Neovim configuration project
-│   ├── dotfiles/             # System configuration
-│   └── study-roadmap/        # Learning projects
-├── Areas/                    # Ongoing responsibilities (flattened)
+│   └── dotfiles/             # System configuration project
+├── Areas/                    # Ongoing responsibilities (consolidated)
 │   ├── development/          # Programming languages, tools, editors
-│   ├── systems/              # OS, keyboard, tmux, etc.
-│   └── learning/             # Educational resources
-├── Resources/                # Reference materials (consolidated)
+│   │   ├── editors/          # Vim, Neovim configurations
+│   │   ├── frameworks/       # React, Next.js, HTMX
+│   │   ├── languages/        # Python, Go, Rust, Lua, etc.
+│   │   ├── tools/            # Docker, Kubernetes, AWS, Argo, etc.
+│   │   └── architecture/     # Hexagonal architecture, etc.
+│   └── systems/              # OS, keyboard, tmux, etc.
+│       ├── shell/            # Zsh configuration
+│       ├── mac/              # macOS specific
+│       ├── keyboard/         # Keyboard customization
+│       ├── tmux/             # Terminal multiplexer
+│       └── window-manager/   # Tiling window management
+├── Resources/                # Reference materials (expanded)
 │   ├── cheatsheets/          # Quick reference guides
 │   ├── tutorials/            # Step-by-step guides
-│   └── documentation/        # Official docs and specs
+│   ├── documentation/        # Official docs and specs
+│   ├── references/           # Work platforms, AI tools, systems thinking
+│   └── notes/                # Terminal & CLI tools
 ├── Archives/                 # Completed or inactive materials
 ├── Templates/                # Reusable note formats
 └── Meta/                     # Vault documentation and structure guides
@@ -29,11 +38,11 @@ This workspace is organized using the [PARA Method](https://fortelabs.com/blog/p
 
 ## 🎯 Key Improvements
 
-- **Shallow hierarchy**: Maximum 3 levels deep
-- **Logical grouping**: Related content together
-- **Clear separation**: Projects vs ongoing areas
-- **Easier navigation**: Fewer clicks to find content
-- **Better maintenance**: Less complexity to manage
+- **PARA Compliance**: Proper classification of Projects vs Areas vs Resources
+- **Logical Grouping**: Related technologies grouped together
+- **Clear Separation**: Time-bound projects vs ongoing responsibilities
+- **Expanded Resources**: Better organization of reference materials
+- **Reduced Complexity**: Fewer top-level directories, better organization
 
 ## 📘 Internal Docs
 
