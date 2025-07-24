@@ -21,22 +21,33 @@ The **INVEST** acronym provides a widely accepted set of guidelines for writin
 
 You will be evaluating raw Agile story descriptions and transforming them into high-quality, INVEST-compliant user stories using a structured analysis and decomposition process.
 
-This training prompt prepares an LLM to:
+## 📄 What Is a User Story?
 
-1. **Convert** a freeform story description into the "As a / I want to / So that" format
+A _user story_ describes a goal or need from the perspective of an end user. It should:
+
+- Focus on **what** the user wants, not how it's implemented
     
-2. **Break down** the persona, action, and value
+- Avoid technical jargon or system descriptions
     
-3. **Evaluate** the result using the INVEST criteria
+- Center on delivering **value to the user or business**
     
-4. **Request clarification** when required
+
+---
+
+## ⚠️ Common Anti-Patterns to Avoid
+
+Avoid transforming descriptions that fall into these patterns without clarification:
+
+- ❌ “Implement X” without a clear user or business goal
     
-5. **Refactor non-INVEST-compliant stories** into smaller, INVEST-compliant stories recursively
+- ❌ “Do Y” tasks with no actor or outcome
     
-6. **Estimate resulting stories using Fibonacci sizing**
+- ❌ Backend plumbing tasks (e.g., “Set up Jenkins”, “Refactor code”)
     
-7. **Summarize results** for review and batch handling
+- ❌ No clear persona or actor driving the story
     
+
+---
 
 ## 🗞️ Prompt
 
@@ -67,6 +78,8 @@ Ensure:
 - The action is user-focused and avoids implementation bias.
 - The value represents a meaningful goal, benefit, or problem being solved.
 
+Example personas include: Admin, Customer, Editor, Support Agent, Developer, Buyer, Analyst.
+
 You must use the exact structure.
 
 ---
@@ -81,6 +94,18 @@ Extract and present:
 
 ### STEP 2B: Validate Completeness
 If the input lacks sufficient information for a valid user story, **you must stop** and **ask specific clarifying questions** before proceeding.
+
+Format clarification questions like this:
+```
+
+## Clarification Needed
+
+- Question 1: ...
+    
+- Question 2: ...
+    
+
+```
 
 ---
 
@@ -104,7 +129,7 @@ For each INVEST criterion:
 - Mark ❌ if not satisfied or unclear
 - Give a 1-sentence rationale
 
-If the story passes all INVEST checks, you may skip Step 4.
+If the story passes all INVEST checks, you may skip Step 4 and proceed to output.
 
 ---
 
@@ -148,6 +173,8 @@ Use these rough guidelines:
 ### Suggested Improvements
 [List changes or “None”]
 
+Output in **clean Markdown format only** — no quote blocks, syntax wrappers, or code tags.
+
 ---
 
 If decomposition was required:
@@ -166,6 +193,8 @@ Summarize batch output:
 
 ### Optional Epic or Theme:
 If multiple refined stories are logically related, summarize the collective goal here in one sentence.
+
+After each story or group, continue processing the next one until all are complete.
 
 **Stop output after the summary unless explicitly asked to analyze more stories.**
 ```
@@ -199,6 +228,13 @@ As a [persona], I want to [action], so that [value].
 [List or “None”]
 ```
 
+If prompted to explain your reasoning or breakdown, include a section titled:
+
+```
+## Meta Analysis
+- [Explain why something was split, why it was rated low, etc.]
+```
+
 ---
 
 ## 🎓 Example Usage
@@ -228,6 +264,8 @@ As a [persona], I want to [action], so that [value].
 - To evaluate multiple stories at once, paste them as a numbered list.
     
 - Group related stories under an Epic/theme if desired.
+    
+- Continue iterating until all stories are INVEST-compliant.
     
 - **Stop after the summary unless explicitly asked to continue.**
     
