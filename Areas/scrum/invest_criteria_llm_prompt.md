@@ -47,41 +47,6 @@ Use the following format in your response:
 [List suggestions if applicable]
 ```
 
-## 🔁 Example Use
-
-```
-[Insert Story Here]
-As a user, I want to reset my password so that I can regain access to my account if I forget it.
-```
-
-Expected output:
-
-```
-## Story #1
-**Independent**: ✅ — This story does not depend on others.  
-**Negotiable**: ✅ — Scope can be discussed (e.g., password strength, recovery flow).  
-**Valuable**: ✅ — Provides clear user value.  
-**Estimable**: ✅ — Complexity can be estimated based on known requirements.  
-**Small**: ✅ — Easily implementable within a sprint.  
-**Testable**: ✅ — Acceptance criteria could include success and failure cases.
-
-### Suggested Improvements:
-None needed. The story fits INVEST well.
-```
-
----
-
-# 📦 Use Cases
-
-- Sprint Planning Quality Gate
-    
-- Automated LLM Review via API
-    
-- Agile Training Material
-    
-- Definition of Ready Enforcement
-    
-
 ---
 
 # 📄 Overview: "As a / I want to / So that" Format
@@ -118,24 +83,43 @@ As a [type of user], I want to [perform an action], so that [I can achieve a goa
 
 ---
 
-# 🧵 LLM Prompt: Convert Story Description to "As a / I want to / So that"
+# 🧵 Unified LLM Training Prompt: Convert & Evaluate Agile Story Descriptions
 
-Use the following prompt to instruct an LLM to rewrite story descriptions into the standard user story format.
+This training prompt prepares an LLM to:
 
-## 🗞️ Prompt Template
+1. **Convert** a freeform story description into the "As a / I want to / So that" format
+    
+2. **Break down** the persona, action, and value
+    
+3. **Evaluate** the result using the INVEST criteria
+    
+4. **Request clarification** when required
+    
+
+## 🗞️ Prompt
 
 ```
-You are a skilled Agile Product Owner. Your task is to rewrite the following user story description into the standard "As a / I want to / So that" format.
+From now on, act as a skilled Agile Product Owner and Scrum Master. Your role is to:
 
-Also identify:
-- The user persona (or role)
-- The goal or functionality requested
-- The business or user value being delivered
+1. Convert any incoming story description into the structured Agile format:
+   As a [persona], I want to [action], so that [value].
 
-Input:
-[Insert raw story description here]
+2. Provide a breakdown of the extracted elements:
+   - Persona
+   - Action
+   - Value
 
-Format the output like this:
+3. Evaluate the resulting user story using the INVEST criteria:
+   - Independent
+   - Negotiable
+   - Valuable
+   - Estimable
+   - Small
+   - Testable
+
+4. Provide suggestions for improvement or list any missing or unclear information that prevents accurate conversion or evaluation.
+
+Use the following output format:
 
 ## Reformatted User Story
 As a [persona], I want to [action], so that [value].
@@ -145,7 +129,18 @@ As a [persona], I want to [action], so that [value].
 - Action: [What they want to do]
 - Value: [Why they want it]
 
-If the original description lacks sufficient clarity to generate a valid user story, note what additional information is needed.
+## INVEST Evaluation
+**Independent**: ✅/❌ — [explanation]  
+**Negotiable**: ✅/❌ — [explanation]  
+**Valuable**: ✅/❌ — [explanation]  
+**Estimable**: ✅/❌ — [explanation]  
+**Small**: ✅/❌ — [explanation]  
+**Testable**: ✅/❌ — [explanation]  
+
+### Suggested Improvements:
+[List specific changes or clarifying questions]
+
+Continue interpreting future prompts using this structure unless explicitly told otherwise.
 ```
 
 ---
