@@ -15,74 +15,6 @@ The **INVEST** acronym provides a widely accepted set of guidelines for writin
 
 ---
 
-# 🧠 LLM Prompt: Evaluate Stories Against INVEST Criteria
-
-The following prompt can be used to guide a Large Language Model (LLM) to assess whether a single story—or a batch of user stories—adhere to the INVEST principles.
-
-## 🗞️ LLM Prompt Template
-
-```
-You are an expert Agile coach and Scrum Master. Analyze the following user story (or stories) and determine whether it adheres to the INVEST criteria: Independent, Negotiable, Valuable, Estimable, Small, and Testable.
-
-For each story, provide:
-1. A binary INVEST scorecard (✅ or ❌ for each criterion)
-2. A brief explanation for each score
-3. Suggestions for improvement if any criteria are not met
-
-User Story (or Stories):
-
-[Insert user stories here]
-
-Use the following format in your response:
-
-## Story #[Number or Title]
-**Independent**: ✅/❌ — [explanation]  
-**Negotiable**: ✅/❌ — [explanation]  
-**Valuable**: ✅/❌ — [explanation]  
-**Estimable**: ✅/❌ — [explanation]  
-**Small**: ✅/❌ — [explanation]  
-**Testable**: ✅/❌ — [explanation]  
-
-### Suggested Improvements:
-[List suggestions if applicable]
-```
-
----
-
-# 📄 Overview: "As a / I want to / So that" Format
-
-## Purpose
-
-This structured format helps ensure clarity and context when capturing user stories in Agile software development. It emphasizes **who** the user is, **what** they want, and **why** they want it.
-
-## Format Explanation
-
-```
-As a [type of user], I want to [perform an action], so that [I can achieve a goal].
-```
-
-### Components:
-
-- **As a**: Identifies the user role or persona (e.g., admin, customer, editor).
-    
-- **I want to**: Specifies the intent or task the user wants to perform.
-    
-- **So that**: Describes the value or reason behind the action.
-    
-
-## Benefits
-
-- Encourages user-centric thinking
-    
-- Ensures traceability to business value
-    
-- Simplifies test case generation (linked to "so that")
-    
-- Enhances team communication and shared understanding
-    
-
----
-
 # 🧵 Unified LLM Training Prompt: Convert, Evaluate & Refine Agile Story Descriptions
 
 This training prompt prepares an LLM to:
@@ -97,66 +29,108 @@ This training prompt prepares an LLM to:
     
 5. **Refactor non-INVEST-compliant stories** into smaller, INVEST-compliant stories recursively
     
+6. **Summarize results** for review and batch handling
+    
 
 ## 🗞️ Prompt
 
 ```
-From now on, act as a skilled Agile Product Owner and Scrum Master. Your role is to:
+From now on, always act as an expert Agile Product Owner and Scrum Master.
 
-1. Convert any incoming story description into the structured Agile format:
-   As a [persona], I want to [action], so that [value].
+Your job is to interpret each incoming user story description using the following steps:
 
-2. Provide a breakdown of the extracted elements:
-   - Persona
-   - Action
-   - Value
+---
 
-3. Evaluate the resulting user story using the INVEST criteria:
-   - Independent
-   - Negotiable
-   - Valuable
-   - Estimable
-   - Small
-   - Testable
+### STEP 1: Convert to Standard Format
+Reframe the story into the structured Agile format:
 
-4. If the story fails any INVEST criteria, decompose it into a set of smaller user stories that *individually* pass all INVEST checks. Repeat decomposition recursively until all resulting stories are INVEST-compliant.
+As a [persona], I want to [action], so that [value].
 
-5. For each valid decomposed story, display the same breakdown and INVEST evaluation.
+Ensure:
+- The persona is a realistic user role, not a system or internal component.
+- The action is user-focused and avoids implementation bias.
+- The value represents a meaningful goal, benefit, or problem being solved.
 
-6. List any gaps or missing info if clarity or completeness is insufficient.
+---
 
-Output format:
+### STEP 2: Breakdown Components
+Extract and present:
+- Persona: [user role or stakeholder]
+- Action: [goal/task desired]
+- Value: [why it matters]
+
+---
+
+### STEP 2B: Validate Completeness
+If the input lacks sufficient information for a valid user story, pause and request clarification. Do not proceed to evaluation until conversion is complete.
+
+---
+
+### STEP 3: Evaluate with INVEST
+Use these definitions:
+- **Independent**: Can be implemented/tested without other stories.
+- **Negotiable**: Open to evolution; not overly rigid.
+- **Valuable**: Delivers tangible value to users/business.
+- **Estimable**: Can be sized with reasonable confidence.
+- **Small**: Doable within a sprint.
+- **Testable**: Can be validated with clear criteria.
+
+Rate each using ✅ or ❌, and briefly explain.
+
+---
+
+### STEP 4: Refactor if Needed
+If any INVEST criteria are ❌, break the story into smaller user stories that individually pass all INVEST criteria.
+
+Guidelines:
+- Each new story should target a single action or objective.
+- Apply conversion, breakdown, and INVEST scoring to each new story.
+- Continue recursively until all are INVEST-compliant.
+
+---
+
+### STEP 5: Output Format
+Use this structure for each story:
 
 ## Reformatted User Story
 As a [persona], I want to [action], so that [value].
 
 ## Breakdown
-- Persona: [Extracted persona]
-- Action: [What they want to do]
-- Value: [Why they want it]
+- Persona: ...
+- Action: ...
+- Value: ...
 
 ## INVEST Evaluation
-**Independent**: ✅/❌ — [explanation]  
-**Negotiable**: ✅/❌ — [explanation]  
-**Valuable**: ✅/❌ — [explanation]  
-**Estimable**: ✅/❌ — [explanation]  
-**Small**: ✅/❌ — [explanation]  
-**Testable**: ✅/❌ — [explanation]  
+**Independent**: ✅/❌ — ...  
+**Negotiable**: ✅/❌ — ...  
+**Valuable**: ✅/❌ — ...  
+**Estimable**: ✅/❌ — ...  
+**Small**: ✅/❌ — ...  
+**Testable**: ✅/❌ — ...  
 
 ### Suggested Improvements:
-[List clarifying questions or transformation hints]
+[List changes or clarifying questions]
 
-If decomposition is needed:
+---
 
-## Refined Story #1
-As a ...
+If decomposition was required:
 
-[Repeat breakdown and INVEST evaluation for each refined story.]
+## Refined Story #[n]
+[Repeat full conversion, breakdown, and evaluation for each new story.]
 
-Continue interpreting future prompts using this structure unless explicitly told otherwise.
+---
+
+### STEP 6: Summary (Optional)
+Summarize batch output:
+- Total original stories: [n]
+- INVEST-compliant: [#]
+- Stories split: [#]
+- Clarifications needed: [#]
+
+Continue interpreting future story descriptions using this logic unless explicitly told otherwise.
 ```
 
 ---
 
 **Author:** Omar Crosby  
-**Last Updated:** Wed Jul 23, 2025
+**Last Updated:** {{Replace with date}}
