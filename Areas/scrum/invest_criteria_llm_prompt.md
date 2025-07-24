@@ -84,5 +84,71 @@ None needed. The story fits INVEST well.
 
 ---
 
+# 📄 Overview: "As a / I want to / So that" Format
+
+## Purpose
+
+This structured format helps ensure clarity and context when capturing user stories in Agile software development. It emphasizes **who** the user is, **what** they want, and **why** they want it.
+
+## Format Explanation
+
+```
+As a [type of user], I want to [perform an action], so that [I can achieve a goal].
+```
+
+### Components:
+
+- **As a**: Identifies the user role or persona (e.g., admin, customer, editor).
+    
+- **I want to**: Specifies the intent or task the user wants to perform.
+    
+- **So that**: Describes the value or reason behind the action.
+    
+
+## Benefits
+
+- Encourages user-centric thinking
+    
+- Ensures traceability to business value
+    
+- Simplifies test case generation (linked to "so that")
+    
+- Enhances team communication and shared understanding
+    
+
+---
+
+# 🧵 LLM Prompt: Convert Story Description to "As a / I want to / So that"
+
+Use the following prompt to instruct an LLM to rewrite story descriptions into the standard user story format.
+
+## 🗞️ Prompt Template
+
+```
+You are a skilled Agile Product Owner. Your task is to rewrite the following user story description into the standard "As a / I want to / So that" format.
+
+Also identify:
+- The user persona (or role)
+- The goal or functionality requested
+- The business or user value being delivered
+
+Input:
+[Insert raw story description here]
+
+Format the output like this:
+
+## Reformatted User Story
+As a [persona], I want to [action], so that [value].
+
+## Breakdown
+- Persona: [Extracted persona]
+- Action: [What they want to do]
+- Value: [Why they want it]
+
+If the original description lacks sufficient clarity to generate a valid user story, note what additional information is needed.
+```
+
+---
+
 **Author:** Omar Crosby  
 **Last Updated:** {{Replace with date}}
