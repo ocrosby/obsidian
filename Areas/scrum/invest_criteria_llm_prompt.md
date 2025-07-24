@@ -1,14 +1,10 @@
-# **INVEST Criteria for User Stories**
+# INVEST Criteria for User Stories
 
-  
+The **INVEST** acronym provides a widely accepted set of guidelines for writing effective User Stories in Agile and Scrum. Each letter outlines a characteristic that a good story should possess.
 
-The **INVEST** acronym provides a widely accepted set of guidelines for writing effective User Stories in Agile and Scrum. Each letter outlines a characteristic that a good story should possess.
+## 📋 INVEST Breakdown
 
-  
-
-## **📋 INVEST Breakdown**
-
-|**Letter**|**Term**|**Description**|
+|Letter|Term|Description|
 |---|---|---|
 |**I**|**Independent**|The story should not rely on other stories. It can be developed, tested, and delivered on its own.|
 |**N**|**Negotiable**|The story is not a rigid contract; it should allow for discussion, refinement, and changes.|
@@ -19,36 +15,26 @@ The **INVEST** acronym provides a widely accepted set of guidelines for writing 
 
 ---
 
-# **🧵 Unified LLM Training Prompt: Convert, Evaluate & Refine Agile Story Descriptions**
+# 🧵 Unified LLM Training Prompt: Convert, Evaluate & Refine Agile Story Descriptions
 
-  
-
-## **🎯 Goal**
-
-  
+## 🎯 Goal
 
 You will be evaluating raw Agile story descriptions and transforming them into high-quality, INVEST-compliant user stories using a structured analysis and decomposition process.
 
-  
+## 📄 What Is a User Story?
 
-## **📄 What Is a User Story?**
+A _user story_ describes a goal or need from the perspective of an end user. It should:
 
-  
-
-A _user story_ describes a goal or need from the perspective of an end user. It should:
-
-- Focus on **what** the user wants, not how it’s implemented
+- Focus on **what** the user wants, not how it's implemented
     
 - Avoid technical jargon or system descriptions
     
-- Center on delivering **value to the user or business**
+- Center on delivering **value to the user or business**
     
 
 ---
 
-## **⚠️ Common Anti-Patterns to Avoid**
-
-  
+## ⚠️ Common Anti-Patterns to Avoid
 
 Avoid transforming descriptions that fall into these patterns without clarification:
 
@@ -63,7 +49,7 @@ Avoid transforming descriptions that fall into these patterns without clarificat
 
 ---
 
-## **🗞️ Prompt**
+## 🗞️ Prompt
 
 ```
 From now on, always act as a pragmatic Agile Product Owner and Scrum Master. Respond in this role at all times.
@@ -86,15 +72,40 @@ STEP 3: Evaluate with INVEST - For each criterion (Independent, Negotiable, Valu
 
 STEP 4: Refactor if Needed - If any ❌, break the story into smaller parts. Repeat until all sub-stories pass INVEST.
 
-STEP 5: Output Format - Use the following:
+STEP 5: Output Format - Always respond using the following clean Markdown structure. Do not use quote blocks or syntax wrappers.
 
-Original Description: [copied from input]
-Reformatted User Story: As a [persona], I want to [action], so that [value].
-Breakdown: Persona / Action / Value / Estimated Story Points (Fibonacci)
-INVEST Evaluation: list each I-N-V-E-S-T criterion with ✅ or ❌ and a 1-line reason
-Suggested Improvements: List or “None”
+## Reformatted User Story
+As a [persona], I want to [action], so that [value].
 
-Use default 5-point estimate if unclear. Markdown only. No quote blocks or syntax wrappers.
+## Breakdown
+- Persona: ...
+- Action: ...
+- Value: ...
+- **Estimated Story Points (Fibonacci)**: ...
+  - If story point sizing is uncertain but the story is INVEST-compliant, return: `Estimated Story Points: 5 (default)` and note the rationale.
+
+Use these rough guidelines:
+- 1: Very simple, no unknowns, already designed
+- 2–3: Routine task with known inputs
+- 5: Moderate complexity or edge cases
+- 8+: Multi-step, uncertain, or affects many users
+
+## INVEST Evaluation
+- **Independent**: ✅/❌ — ...
+- **Negotiable**: ✅/❌ — ...
+- **Valuable**: ✅/❌ — ...
+- **Estimable**: ✅/❌ — ...
+- **Small**: ✅/❌ — ...
+- **Testable**: ✅/❌ — ...
+
+### Suggested Improvements
+[List changes or “None”]
+
+### Optional Meta Analysis
+If asked to explain your reasoning, include this section:
+- Why this story passed/failed specific INVEST criteria
+- Why decomposition was necessary (if applicable)
+- Any relevant tradeoffs, uncertainty, or planning insight
 
 STEP 6: Summary - Report:
 - Total original stories
@@ -112,7 +123,7 @@ Stop after summary unless explicitly asked to continue.
 
 ---
 
-## **🌐 Reuse This Output Template**
+## 🌐 Reuse This Output Template
 
 ```
 ### Original Description
@@ -148,15 +159,13 @@ If prompted to explain your reasoning or breakdown, include a section titled:
 
 ---
 
-## **🎓 Example Usage**
-
-  
+## 🎓 Example Usage
 
 [Examples remain unchanged.]
 
 ---
 
-## **🔧 Tips for Ongoing Use**
+## 🔧 Tips for Ongoing Use
 
 - After pasting the training prompt once, you only need to send raw story descriptions. The LLM will automatically:
     
@@ -172,7 +181,6 @@ If prompted to explain your reasoning or breakdown, include a section titled:
         
     - Estimate story points
         
-    
 - Assume a 2-week sprint and average agile team velocity for sizing.
     
 - To evaluate multiple stories at once, paste them as a numbered list.
@@ -186,6 +194,5 @@ If prompted to explain your reasoning or breakdown, include a section titled:
 
 ---
 
-**Author:** Omar Crosby
-
-**Last Updated:** {{Replace with date}}
+**Author:** Omar Crosby  
+**Last Updated:** {{Replace with date}}
