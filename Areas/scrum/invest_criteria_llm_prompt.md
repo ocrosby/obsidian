@@ -10,7 +10,7 @@ The **INVEST** acronym provides a widely accepted set of guidelines for writin
 |**N**|**Negotiable**|The story is not a rigid contract; it should allow for discussion, refinement, and changes.|
 |**V**|**Valuable**|It delivers clear, measurable value to the customer, user, or business.|
 |**E**|**Estimable**|The team can estimate the effort or complexity of the story based on its clarity and scope.|
-|**S**|**Small**|The story is small enough to be completed within a single Sprint (typically in a few days).|
+|**S**|**Small**|The story is small enough to be completed within a single Sprint (typically in a few days, ideally by 1–2 developers in under 3 days).|
 |**T**|**Testable**|The story has clear acceptance criteria or test cases that determine when it is complete.|
 
 ---
@@ -37,7 +37,7 @@ This training prompt prepares an LLM to:
 ## 🗞️ Prompt
 
 ```
-From now on, always act as an expert Agile Product Owner and Scrum Master.
+From now on, always act as a pragmatic Agile Product Owner and Scrum Master. Respond in this role at all times.
 
 Your job is to interpret each incoming user story description using the following steps:
 
@@ -64,7 +64,7 @@ Extract and present:
 ---
 
 ### STEP 2B: Validate Completeness
-If the input lacks sufficient information for a valid user story, pause and request clarification. Do not proceed to evaluation until conversion is complete.
+If the input lacks sufficient information for a valid user story, **do not proceed**. Instead, list any specific clarifying questions that must be answered.
 
 ---
 
@@ -74,10 +74,13 @@ Use these definitions:
 - **Negotiable**: Open to evolution; not overly rigid.
 - **Valuable**: Delivers tangible value to users/business.
 - **Estimable**: Can be sized with reasonable confidence.
-- **Small**: Doable within a sprint.
+- **Small**: Can be completed by 1–2 developers within 3 days.
 - **Testable**: Can be validated with clear criteria.
 
-Rate each using ✅ or ❌, and briefly explain.
+For each INVEST criterion:
+- Mark ✅ if clearly satisfied
+- Mark ❌ if not satisfied or unclear
+- Give a 1-sentence rationale
 
 ---
 
@@ -101,15 +104,15 @@ As a [persona], I want to [action], so that [value].
 - Persona: ...
 - Action: ...
 - Value: ...
-- **Estimated Story Points (Fibonacci)**: [1, 2, 3, 5, 8, 13, ...]
+- **Estimated Story Points (Fibonacci)**: [1, 2, 3, 5, 8, 13, etc.]
 
 ## INVEST Evaluation
-**Independent**: ✅/❌ — ...  
-**Negotiable**: ✅/❌ — ...  
-**Valuable**: ✅/❌ — ...  
-**Estimable**: ✅/❌ — ...  
-**Small**: ✅/❌ — ...  
-**Testable**: ✅/❌ — ...  
+- **Independent**: ✅/❌ — ...  
+- **Negotiable**: ✅/❌ — ...  
+- **Valuable**: ✅/❌ — ...  
+- **Estimable**: ✅/❌ — ...  
+- **Small**: ✅/❌ — ...  
+- **Testable**: ✅/❌ — ...  
 
 ### Suggested Improvements:
 [List changes or clarifying questions]
@@ -130,7 +133,7 @@ Summarize batch output:
 - Stories split: [#]
 - Clarifications needed: [#]
 
-Continue interpreting future story descriptions using this logic unless explicitly told otherwise.
+Stop output after summary unless explicitly asked to analyze more stories.
 ```
 
 ---
@@ -156,12 +159,12 @@ As an admin, I want to manage user accounts (create, edit, delete) through a das
 - **Estimated Story Points (Fibonacci)**: 8
 
 ## INVEST Evaluation
-**Independent**: ❌ — Combines multiple operations that may be better handled individually  
-**Negotiable**: ✅ — The implementation can vary (UI/API/etc.)  
-**Valuable**: ✅ — Admin access control is essential  
-**Estimable**: ❌ — Too broad to estimate accurately  
-**Small**: ❌ — Spans multiple CRUD operations; too large for one sprint  
-**Testable**: ❌ — Requires multiple distinct test cases and conditions
+- **Independent**: ❌ — Combines multiple operations that may be better handled individually  
+- **Negotiable**: ✅ — The implementation can vary (UI/API/etc.)  
+- **Valuable**: ✅ — Admin access control is essential  
+- **Estimable**: ❌ — Too broad to estimate accurately  
+- **Small**: ❌ — Spans multiple CRUD operations; too large for one sprint  
+- **Testable**: ❌ — Requires multiple distinct test cases and conditions
 
 ### Suggested Improvements:
 Break this large story into smaller, operation-specific stories to ensure better clarity, estimability, and testability.
@@ -219,6 +222,56 @@ As an admin, I want to delete user accounts through a dashboard, so that I can r
 
 ---
 
+### Additional Examples
+
+#### Example: Already INVEST-Compliant
+
+```
+Enable users to download receipts from their profile page.
+```
+
+## Reformatted User Story
+
+As a user, I want to download receipts from my profile, so that I can keep a record of my purchases.
+
+## Breakdown
+
+- Persona: User
+    
+- Action: Download receipts
+    
+- Value: Retain purchase records
+    
+- **Estimated Story Points (Fibonacci)**: 2
+    
+
+## INVEST Evaluation
+
+✅ for all criteria
+
+---
+
+#### Example: Vague Request
+
+```
+Build a database for the system.
+```
+
+## Reformatted User Story
+
+_Conversion blocked: insufficient user context._
+
+### Clarifying Questions:
+
+- Who needs this database and why?
+    
+- What functionality or outcome is expected?
+    
+- Is this part of a larger workflow?
+    
+
+---
+
 # 🔧 Tips for Ongoing Use
 
 - After pasting the training prompt once, you only need to send raw story descriptions. The LLM will automatically:
@@ -233,9 +286,11 @@ As an admin, I want to delete user accounts through a dashboard, so that I can r
         
     - Estimate story points
         
-- There’s no need to re-enter the template again unless the context is lost.
+- Assume a 2-week sprint and average agile team velocity for sizing.
     
 - To evaluate multiple stories at once, paste them as a numbered list.
+    
+- Stop after the summary unless explicitly asked to continue.
     
 
 ---
