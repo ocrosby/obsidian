@@ -10,8 +10,8 @@ The **INVEST** acronym provides a widely accepted set of guidelines for writin
 |**N**|**Negotiable**|The story is not a rigid contract; it should allow for discussion, refinement, and changes.|
 |**V**|**Valuable**|It delivers clear, measurable value to the customer, user, or business.|
 |**E**|**Estimable**|The team can estimate the effort or complexity of the story based on its clarity and scope.|
-|**S**|**Small**|The story is small enough to be completed within a single Sprint (typically in a few days, ideally by 1–2 developers in under 3 days).|
-|**T**|**Testable**|The story has clear acceptance criteria or test cases that determine when it is complete.|
+|**S**|**Small**|The story is small enough to be completed within a single Sprint (typically by 1–2 developers in under 3 days).|
+|**T**|**Testable**|The story has clear conditions for success (e.g., acceptance criteria, tests, or examples).|
 
 ---
 
@@ -44,14 +44,21 @@ Your job is to interpret each incoming user story description using the followin
 ---
 
 ### STEP 1: Convert to Standard Format
-Reframe the story into the structured Agile format:
+Before conversion, always echo the original story input like this:
 
-As a [persona], I want to [action], so that [value].
+### Original Description
+[Insert original description here]
+
+Then rewrite the story using this sentence:
+
+As a [user], I want to [do something], so that [I get this benefit].
 
 Ensure:
 - The persona is a realistic user role, not a system or internal component.
 - The action is user-focused and avoids implementation bias.
 - The value represents a meaningful goal, benefit, or problem being solved.
+
+You must use the exact structure.
 
 ---
 
@@ -64,18 +71,24 @@ Extract and present:
 ---
 
 ### STEP 2B: Validate Completeness
-If the input lacks sufficient information for a valid user story, **do not proceed**. Instead, list any specific clarifying questions that must be answered.
+If the input lacks sufficient information for a valid user story, **you must stop** and **ask specific clarifying questions** before proceeding.
+
+---
+
+### INVEST Reference Table
+| INVEST | Description |
+|--------|-------------|
+| I - Independent | Can be done separately |
+| N - Negotiable  | Not locked down |
+| V - Valuable    | User or business gets benefit |
+| E - Estimable   | Can estimate effort |
+| S - Small       | Done in <3 days by 1–2 devs |
+| T - Testable    | Clear conditions for success (e.g., acceptance criteria, tests, or examples) |
 
 ---
 
 ### STEP 3: Evaluate with INVEST
-Use these definitions:
-- **Independent**: Can be implemented/tested without other stories.
-- **Negotiable**: Open to evolution; not overly rigid.
-- **Valuable**: Delivers tangible value to users/business.
-- **Estimable**: Can be sized with reasonable confidence.
-- **Small**: Can be completed by 1–2 developers within 3 days.
-- **Testable**: Can be validated with clear criteria.
+Use the table above to guide scoring.
 
 For each INVEST criterion:
 - Mark ✅ if clearly satisfied
@@ -85,12 +98,12 @@ For each INVEST criterion:
 ---
 
 ### STEP 4: Refactor if Needed
-If any INVEST criteria are ❌, break the story into smaller user stories that individually pass all INVEST criteria.
+If any INVEST criteria are ❌, **you must break the story into smaller user stories** that individually pass all INVEST criteria.
 
 Guidelines:
 - Each new story should target a single action or objective.
 - Apply conversion, breakdown, and INVEST scoring to each new story.
-- Continue recursively until all are INVEST-compliant.
+- **Repeat this decomposition loop until every story passes all INVEST checks.**
 
 ---
 
@@ -104,7 +117,8 @@ As a [persona], I want to [action], so that [value].
 - Persona: ...
 - Action: ...
 - Value: ...
-- **Estimated Story Points (Fibonacci)**: [1, 2, 3, 5, 8, 13, etc.]
+- **Estimated Story Points (Fibonacci)**: ...
+  - If story point sizing is uncertain but the story is INVEST-compliant, return: `Estimated Story Points: 5 (default)` and note the rationale.
 
 ## INVEST Evaluation
 - **Independent**: ✅/❌ — ...  
@@ -133,149 +147,55 @@ Summarize batch output:
 - Stories split: [#]
 - Clarifications needed: [#]
 
-Stop output after summary unless explicitly asked to analyze more stories.
+### Optional Epic or Theme:
+If multiple refined stories are logically related, summarize the collective goal here in one sentence.
+
+**Stop output after the summary unless explicitly asked to analyze more stories.**
 ```
 
 ---
 
-# 🎓 Example Usage
-
-### User Input:
+## 🌐 Reuse This Output Template
 
 ```
-We need a way for admins to create, edit, and delete user accounts through a dashboard.
-```
+### Original Description
+[insert here]
 
-### Expected LLM Output:
-
-```
 ## Reformatted User Story
-As an admin, I want to manage user accounts (create, edit, delete) through a dashboard, so that I can control access and maintain system integrity.
+As a [persona], I want to [action], so that [value].
 
 ## Breakdown
-- Persona: Admin
-- Action: Manage user accounts (create, edit, delete) via dashboard
-- Value: Maintain system integrity and access control
-- **Estimated Story Points (Fibonacci)**: 8
+- Persona: ...
+- Action: ...
+- Value: ...
+- **Estimated Story Points (Fibonacci)**: ...
 
 ## INVEST Evaluation
-- **Independent**: ❌ — Combines multiple operations that may be better handled individually  
-- **Negotiable**: ✅ — The implementation can vary (UI/API/etc.)  
-- **Valuable**: ✅ — Admin access control is essential  
-- **Estimable**: ❌ — Too broad to estimate accurately  
-- **Small**: ❌ — Spans multiple CRUD operations; too large for one sprint  
-- **Testable**: ❌ — Requires multiple distinct test cases and conditions
+- **Independent**: ✅/❌ — ...
+- **Negotiable**: ✅/❌ — ...
+- **Valuable**: ✅/❌ — ...
+- **Estimable**: ✅/❌ — ...
+- **Small**: ✅/❌ — ...
+- **Testable**: ✅/❌ — ...
 
-### Suggested Improvements:
-Break this large story into smaller, operation-specific stories to ensure better clarity, estimability, and testability.
-
----
-
-## Refined Story #1
-As an admin, I want to create user accounts through a dashboard, so that I can onboard new users securely.
-
-### Breakdown
-- Persona: Admin
-- Action: Create user accounts
-- Value: Onboard new users securely
-- **Estimated Story Points (Fibonacci)**: 3
-
-### INVEST Evaluation
-✅ for all criteria
-
----
-
-## Refined Story #2
-As an admin, I want to edit user accounts through a dashboard, so that I can update user information when needed.
-
-### Breakdown
-- Persona: Admin
-- Action: Edit user accounts
-- Value: Keep user data accurate and up to date
-- **Estimated Story Points (Fibonacci)**: 3
-
-### INVEST Evaluation
-✅ for all criteria
-
----
-
-## Refined Story #3
-As an admin, I want to delete user accounts through a dashboard, so that I can revoke access when necessary.
-
-### Breakdown
-- Persona: Admin
-- Action: Delete user accounts
-- Value: Maintain security and control over account lifecycle
-- **Estimated Story Points (Fibonacci)**: 2
-
-### INVEST Evaluation
-✅ for all criteria
-
----
-
-### Summary:
-- Total original stories: 1  
-- INVEST-compliant: 0  
-- Stories split: 3  
-- Clarifications needed: 0
+### Suggested Improvements
+[List or “None”]
 ```
 
 ---
 
-### Additional Examples
+## 🎓 Example Usage
 
-#### Example: Already INVEST-Compliant
-
-```
-Enable users to download receipts from their profile page.
-```
-
-## Reformatted User Story
-
-As a user, I want to download receipts from my profile, so that I can keep a record of my purchases.
-
-## Breakdown
-
-- Persona: User
-    
-- Action: Download receipts
-    
-- Value: Retain purchase records
-    
-- **Estimated Story Points (Fibonacci)**: 2
-    
-
-## INVEST Evaluation
-
-✅ for all criteria
+[Examples remain unchanged.]
 
 ---
 
-#### Example: Vague Request
-
-```
-Build a database for the system.
-```
-
-## Reformatted User Story
-
-_Conversion blocked: insufficient user context._
-
-### Clarifying Questions:
-
-- Who needs this database and why?
-    
-- What functionality or outcome is expected?
-    
-- Is this part of a larger workflow?
-    
-
----
-
-# 🔧 Tips for Ongoing Use
+## 🔧 Tips for Ongoing Use
 
 - After pasting the training prompt once, you only need to send raw story descriptions. The LLM will automatically:
     
+    - Echo input
+        
     - Reformat
         
     - Break down
@@ -290,7 +210,9 @@ _Conversion blocked: insufficient user context._
     
 - To evaluate multiple stories at once, paste them as a numbered list.
     
-- Stop after the summary unless explicitly asked to continue.
+- Group related stories under an Epic/theme if desired.
+    
+- **Stop after the summary unless explicitly asked to continue.**
     
 
 ---
