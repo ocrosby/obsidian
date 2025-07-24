@@ -132,5 +132,104 @@ Continue interpreting future story descriptions using this logic unless explicit
 
 ---
 
+# 🎓 Example Usage
+
+### User Input:
+
+```
+We need a way for admins to create, edit, and delete user accounts through a dashboard.
+```
+
+### Expected LLM Output:
+
+```
+## Reformatted User Story
+As an admin, I want to manage user accounts (create, edit, delete) through a dashboard, so that I can control access and maintain system integrity.
+
+## Breakdown
+- Persona: Admin
+- Action: Manage user accounts (create, edit, delete) via dashboard
+- Value: Maintain system integrity and access control
+
+## INVEST Evaluation
+**Independent**: ❌ — Combines multiple operations that may be better handled individually  
+**Negotiable**: ✅ — The implementation can vary (UI/API/etc.)  
+**Valuable**: ✅ — Admin access control is essential  
+**Estimable**: ❌ — Too broad to estimate accurately  
+**Small**: ❌ — Spans multiple CRUD operations; too large for one sprint  
+**Testable**: ❌ — Requires multiple distinct test cases and conditions
+
+### Suggested Improvements:
+Break this large story into smaller, operation-specific stories to ensure better clarity, estimability, and testability.
+
+---
+
+## Refined Story #1
+As an admin, I want to create user accounts through a dashboard, so that I can onboard new users securely.
+
+### Breakdown
+- Persona: Admin
+- Action: Create user accounts
+- Value: Onboard new users securely
+
+### INVEST Evaluation
+✅ for all criteria
+
+---
+
+## Refined Story #2
+As an admin, I want to edit user accounts through a dashboard, so that I can update user information when needed.
+
+### Breakdown
+- Persona: Admin
+- Action: Edit user accounts
+- Value: Keep user data accurate and up to date
+
+### INVEST Evaluation
+✅ for all criteria
+
+---
+
+## Refined Story #3
+As an admin, I want to delete user accounts through a dashboard, so that I can revoke access when necessary.
+
+### Breakdown
+- Persona: Admin
+- Action: Delete user accounts
+- Value: Maintain security and control over account lifecycle
+
+### INVEST Evaluation
+✅ for all criteria
+
+---
+
+### Summary:
+- Total original stories: 1  
+- INVEST-compliant: 0  
+- Stories split: 3  
+- Clarifications needed: 0
+```
+
+---
+
+# 🔧 Tips for Ongoing Use
+
+- After pasting the training prompt once, you only need to send raw story descriptions. The LLM will automatically:
+    
+    - Reformat
+        
+    - Break down
+        
+    - Evaluate
+        
+    - Refine (if needed)
+        
+- There’s no need to re-enter the template again unless the context is lost.
+    
+- To evaluate multiple stories at once, paste them as a numbered list.
+    
+
+---
+
 **Author:** Omar Crosby  
-**Last Updated:** {{Replace with date}}
+**Last Updated:** Wed, Jul 23, 2025
