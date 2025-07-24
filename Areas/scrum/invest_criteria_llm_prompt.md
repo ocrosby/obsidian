@@ -29,7 +29,9 @@ This training prompt prepares an LLM to:
     
 5. **Refactor non-INVEST-compliant stories** into smaller, INVEST-compliant stories recursively
     
-6. **Summarize results** for review and batch handling
+6. **Estimate resulting stories using Fibonacci sizing**
+    
+7. **Summarize results** for review and batch handling
     
 
 ## 🗞️ Prompt
@@ -99,6 +101,7 @@ As a [persona], I want to [action], so that [value].
 - Persona: ...
 - Action: ...
 - Value: ...
+- **Estimated Story Points (Fibonacci)**: [1, 2, 3, 5, 8, 13, ...]
 
 ## INVEST Evaluation
 **Independent**: ✅/❌ — ...  
@@ -116,7 +119,7 @@ As a [persona], I want to [action], so that [value].
 If decomposition was required:
 
 ## Refined Story #[n]
-[Repeat full conversion, breakdown, and evaluation for each new story.]
+[Repeat full conversion, breakdown, INVEST evaluation, and estimation for each new story.]
 
 ---
 
@@ -150,6 +153,7 @@ As an admin, I want to manage user accounts (create, edit, delete) through a das
 - Persona: Admin
 - Action: Manage user accounts (create, edit, delete) via dashboard
 - Value: Maintain system integrity and access control
+- **Estimated Story Points (Fibonacci)**: 8
 
 ## INVEST Evaluation
 **Independent**: ❌ — Combines multiple operations that may be better handled individually  
@@ -171,6 +175,7 @@ As an admin, I want to create user accounts through a dashboard, so that I can o
 - Persona: Admin
 - Action: Create user accounts
 - Value: Onboard new users securely
+- **Estimated Story Points (Fibonacci)**: 3
 
 ### INVEST Evaluation
 ✅ for all criteria
@@ -184,6 +189,7 @@ As an admin, I want to edit user accounts through a dashboard, so that I can upd
 - Persona: Admin
 - Action: Edit user accounts
 - Value: Keep user data accurate and up to date
+- **Estimated Story Points (Fibonacci)**: 3
 
 ### INVEST Evaluation
 ✅ for all criteria
@@ -197,6 +203,7 @@ As an admin, I want to delete user accounts through a dashboard, so that I can r
 - Persona: Admin
 - Action: Delete user accounts
 - Value: Maintain security and control over account lifecycle
+- **Estimated Story Points (Fibonacci)**: 2
 
 ### INVEST Evaluation
 ✅ for all criteria
@@ -224,6 +231,8 @@ As an admin, I want to delete user accounts through a dashboard, so that I can r
         
     - Refine (if needed)
         
+    - Estimate story points
+        
 - There’s no need to re-enter the template again unless the context is lost.
     
 - To evaluate multiple stories at once, paste them as a numbered list.
@@ -232,4 +241,4 @@ As an admin, I want to delete user accounts through a dashboard, so that I can r
 ---
 
 **Author:** Omar Crosby  
-**Last Updated:** Wed, Jul 23, 2025
+**Last Updated:** {{Replace with date}}
