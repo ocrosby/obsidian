@@ -54,3 +54,9 @@ Next, read samples of the text. IF there is a preface, begin there. Read also th
 #### Textbooks
 
 The approach to textbooks is similar to books and manuals. Focus only on the portion that is assigned.
+
+#### Stories & Novels
+
+If you are reading for an assignment preview, if you are reading for enjoyment don't.
+
+The National Council of Teachers of English ()
