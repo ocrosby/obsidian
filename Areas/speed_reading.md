@@ -26,6 +26,13 @@ Examples:
 * The purpose of reading for the next few hours is to unwind, relax, and get lost in the authors tale.
 * I am researching the internet to find a better treatment for my illness.
 
+## Add Power with Preview
 
+Preview the material before reading it.
+
+Preview is one of the most valuable steps readers can take to improve reading speed. Previewing helps the mind see all the pieces and understand how they come together. As a result, you can quickly 
+
+- Scroll through the text
+- Scan the table of contents, major headings, any words in bold or italics, visual aids, and any information that seems relevant.
 
 
