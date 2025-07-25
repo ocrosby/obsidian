@@ -32,7 +32,24 @@ Preview the material before reading it.
 
 Preview is one of the most valuable steps readers can take to improve reading speed. Previewing helps the mind see all the pieces and understand how they come together. As a result, you can quickly make sense of the material. It helps the mind make more accurate predictions when reading.
 
+With previewing you will experience a greater level of comprehension and may even increase speed.
+
 - Scroll through the text
 - Scan the table of contents, major headings, any words in bold or italics, visual aids, and any information that seems relevant.
 
+### Preview Guidelines
+
+Different materials require different approaches to preview.
+
+#### Articles and Reports
+
+Read the first and last paragraphs, examine words in bold or italics, read any quoted texts, and glance at any illustrations.
+
+#### Books and Manuals
+
+Read the front and back covers. Review the table of contents to get a feel for the organization, and notice if the book is divided into sections or parts. Read the chapter headings to get a sense of the topics that will be covered.
+
+Next, read samples of the text. IF there is a preface, begin there. Read also the entire introduction and conclusion. Finally, skim through the book and notice items in bold, italics, quotes, and any diagrams or tables. While skimming, read the first and last paragraphs of each chapter.
+
+#### Textbooks
 
