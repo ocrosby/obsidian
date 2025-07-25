@@ -59,4 +59,14 @@ The approach to textbooks is similar to books and manuals. Focus only on the por
 
 If you are reading for an assignment preview, if you are reading for enjoyment don't.
 
-The National Council of Teachers of English ()
+The National Council of Teachers of English (NCTE) recommends the acronym T.H.I.E.V.E.S
+
+- Title
+- Headings
+- Introduction
+- Every word in bold, underline, quote, and italics
+- Visual Aids
+- End of Chapter Questions
+- Summary/Conclusion
+
+Preview should take between 45 seconds to 5 minutes depending on content.
