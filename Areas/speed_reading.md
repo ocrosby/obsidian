@@ -22,5 +22,10 @@ Examples:
 * I am studying chapters 4, 5, and 6 of the history textbook to ace next week's mid-terms.
 * My goal for reading this manual is to improve my computer programming skills for the new project at work.
 * I am reading this.  snovel to prepare for tomorrow's literature discussion.
+* I am reviewing this book to learn all the facts I need to write an engaging research paper deserving of an A.
+* The purpose of reading for the next few hours is to unwind, relax, and get lost in the authors tale.
+* I am researching the internet to find a better treatment for my illness.
+
+
 
 
