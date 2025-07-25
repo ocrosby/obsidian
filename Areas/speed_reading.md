@@ -30,7 +30,7 @@ Examples:
 
 Preview the material before reading it.
 
-Preview is one of the most valuable steps readers can take to improve reading speed. Previewing helps the mind see all the pieces and understand how they come together. As a result, you can quickly 
+Preview is one of the most valuable steps readers can take to improve reading speed. Previewing helps the mind see all the pieces and understand how they come together. As a result, you can quickly make sense of the material. It helps the mind make more accurate predictions when reading.
 
 - Scroll through the text
 - Scan the table of contents, major headings, any words in bold or italics, visual aids, and any information that seems relevant.
