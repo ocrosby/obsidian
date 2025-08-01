@@ -123,15 +123,3 @@ Introduce **modifiers** to adjust the final priority rank:
 |Freshness|Auto-flags stale, unreviewed work|
 |Visibility|Encourages data-backed, visual prioritization|
 |Team Engagement|Enables cross-functional collaboration|
-
----
-
-Would you like me to export this as:
-
-- A **Markdown file**
-    
-- A **Notion playbook**
-    
-- A **Jira template with scorecard fields**
-    
-- Or a **custom Airtable/Google Sheet with formulas and sorting**?
