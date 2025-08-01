@@ -101,9 +101,3 @@ Your primary objective is to maximize strategic alignment, customer value, and d
   
 
 Always explain how each score was derived and be willing to revise if better data is presented.
-
-```
----
-
-Would you like this saved as a `.txt`, Markdown, or JSON training artifact? Or embedded into a documentation site or LLM knowledge base?
-```
