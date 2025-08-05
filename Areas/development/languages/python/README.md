@@ -5,6 +5,9 @@
 
 - PyToolz
 - python-tabulate
+- Rich
+- hypothesis
+- pydantic-settings
 - 
 
 - [[fastapi]]
