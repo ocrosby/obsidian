@@ -14,6 +14,9 @@
 - nicegui
 - flet (backend for flutter)
 - reflex (full stack web app dev)
-- 
+- textual (open source text based ui)
+- langgraph
+- pydanticai
+- marimo
 
 - [[fastapi]]
