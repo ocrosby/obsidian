@@ -9,8 +9,8 @@ Welcome to the ZShell knowledge base.
 ## Topics
 
 - [[aliases]]
-- [[Projects/zsh/functions]]
+- [[zsh/functions]]
 - [[keybindings]]
-- [[Projects/zsh/plugins]]
+- [[plugins]]
 - [[environment]]
-- [[tips-and-tricks]]
+- [[tips_and_tricks]]

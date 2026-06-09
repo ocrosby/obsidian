@@ -1,6 +1,6 @@
 
 ## Configuration
-- [[Resources/notes/70 - Terminal & CLI Tools/Neovim/configuration]]
+- See [[README]] for the Neovim overview, and [[Plugins/README]] for plugin notes.
 
 ## Plugins
-- [[Resources/notes/70 - Terminal & CLI Tools/Neovim/plugins]]
+- [[Plugins/README]]

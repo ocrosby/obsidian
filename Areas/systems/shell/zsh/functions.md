@@ -1,0 +1,3 @@
+# zsh — Functions
+
+<!-- TODO -->

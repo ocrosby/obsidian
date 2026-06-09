@@ -33,7 +33,7 @@ It essentially sets the tmux prefix to `Ctrl-g` and binds `Ctrl-b` as an additio
 
 Note: If no move to the next or previous panel while zoomed it will automatically zoom out first.
 
-## [[Navigation in Tmux]]
+## [[navigation_in_tmux]]
 
 ## [[managing_tmux_sessions]]
 

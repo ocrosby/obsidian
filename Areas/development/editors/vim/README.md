@@ -9,6 +9,7 @@ aliases: ["Vim Motions"]
 - [[macros/applying_macros]]
 - [[motion_cheatsheet]]
 
+
 `C-d` move down half the length of a screen
 `C-u` move up half the length of a string
 

@@ -1,12 +1,12 @@
 
 ## 🔧 Configuration
-- [[Resources/notes/70 - Terminal & CLI Tools/Tmux/Configuration]]
+- [[configuring_tmux]]
 
 ## 🎯 Keymaps
-- [[Keymaps]]
+- [[keymaps]]
 
 ## 🚀 Workflows
-- [[Workflows]]
+- [[workflows]]
 
 ## 🛠 Troubleshooting
-- [[Troubleshooting]]
+- [[troubleshooting]]
