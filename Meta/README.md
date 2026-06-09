@@ -1,102 +1,58 @@
-# Obsidian Vault Organization (PARA Method - Reorganized)
+# Obsidian Vault Organization
 
-This Obsidian vault follows the [PARA method](https://fortelabs.com/blog/para/) for digital organization, with a reorganized structure that properly classifies content according to PARA principles.
+This vault follows the [PARA method](https://fortelabs.com/blog/para/) — every note is classified by **actionability**, not by subject. Folders are ordered from most actionable (Projects) to least (Archives), with a few scaffolding folders alongside (Inbox, Daily, Templates, Meta).
 
-## Reorganized Structure
+For the rules Claude uses when creating, moving, or editing notes here, see [`../CLAUDE.md`](../CLAUDE.md). The decision tree, anti-patterns, and PARA workflow live there.
 
-```bash
+## Current structure
+
+```
 .
-├── Inbox/                    # Unprocessed notes and quick captures
-├── Projects/                 # Active projects with clear goals
-│   ├── scout-sleuth/         # College Recruiting Intelligence Platform
-│   └── dotfiles/             # System configuration project
-├── Areas/                    # Ongoing responsibilities (consolidated)
-│   ├── development/          # Programming languages, tools, editors
-│   │   ├── editors/          # Vim, Neovim configurations
+├── Projects/                 # Active, goal-bound work
+│   ├── scout_sleuth/         # College Recruiting Intelligence Platform
+│   ├── dotfiles/             # System configuration project
+│   └── ai/                   # AI-related project work
+├── Areas/                    # Ongoing responsibilities
+│   ├── development/          # Engineering practice
+│   │   ├── architecture/     # Patterns, hexagonal, etc.
+│   │   ├── editors/          # Vim, Neovim
 │   │   ├── frameworks/       # React, Next.js, HTMX
-│   │   ├── languages/        # Python, Go, Rust, Lua, etc.
-│   │   ├── tools/            # Docker, Kubernetes, AWS, Argo, etc.
-│   │   └── architecture/     # Hexagonal architecture, etc.
-│   └── systems/              # OS, keyboard, tmux, etc.
-│       ├── shell/            # Zsh configuration
-│       ├── mac/              # macOS specific
-│       ├── keyboard/         # Keyboard customization
-│       ├── tmux/             # Terminal multiplexer
-│       └── window-manager/   # Tiling window management
-├── Resources/                # Reference materials (expanded)
-│   ├── cheatsheets/          # Quick reference guides
-│   ├── tutorials/            # Step-by-step guides
-│   ├── documentation/        # Official docs and specs
-│   ├── references/           # Work platforms, AI tools, systems thinking
-│   └── notes/                # Terminal & CLI tools
-├── Archives/                 # Completed or inactive materials
+│   │   ├── languages/        # Go, Python, Rust, Lua, etc.
+│   │   ├── llm/              # LLM practice (prompt engineering, training)
+│   │   ├── prioritization/   # How to prioritize work
+│   │   └── tools/            # Docker, Kubernetes, AWS, Argo, etc.
+│   ├── scrum/                # Scrum practice
+│   ├── systems/              # OS and tooling
+│   │   ├── keyboard/         # Keyboard customization
+│   │   ├── mac/              # macOS-specific
+│   │   ├── shell/            # Zsh
+│   │   ├── tmux/             # Terminal multiplexer
+│   │   └── window_manager/   # Tiling window management
+│   └── bible/                # Personal study
+├── Resources/                # Reference material
+│   ├── documentation/        # Tool docs (git, sed, vimium)
+│   ├── llm/                  # LLM reference (cheatsheets, awesome lists)
+│   └── references/           # AI tools, work platforms, systems thinking
+├── Archives/                 # Completed or inactive — preserve, do not delete
+├── Inbox/                    # Unprocessed captures
+├── Daily/                    # Daily notes (YYYY-MM-DD.md)
 ├── Templates/                # Reusable note formats
-└── Meta/                     # Vault documentation (this file)
+├── Meta/                     # Vault documentation (this folder)
+└── copilot-custom-prompts/   # Non-PARA: reusable AI prompt library
 ```
 
-## PARA Method Compliance
+## PARA in one paragraph
 
-### **Projects** (Time-bound, goal-oriented)
-- **scout-sleuth/**: College Recruiting Intelligence Platform with clear timeline
-- **dotfiles/**: System configuration project with specific goals
+**Projects** are short-term efforts driving toward a defined end state. **Areas** are the responsibilities you maintain over time with no end date. **Resources** are topics of interest you might use someday. **Archives** preserve everything that has dropped out of the first three categories. Subject-based folders (`Programming/`, `Health/`) are not used — they spread project material across the vault and obscure what's currently being worked on.
 
-### **Areas** (Ongoing responsibilities)
-- **development/**: Ongoing development skills and tool usage
-  - **editors/**: Vim, Neovim configurations (ongoing systems)
-  - **frameworks/**: React, Next.js, HTMX (ongoing learning)
-  - **languages/**: Programming languages (ongoing skills)
-  - **tools/**: Docker, Kubernetes, AWS, Argo (ongoing tool usage)
-  - **architecture/**: Design patterns and architecture (ongoing knowledge)
-- **systems/**: Ongoing system management and customization
-  - **shell/**: Zsh configuration (ongoing system)
-  - **mac/**: macOS specific settings (ongoing system)
-  - **keyboard/**: Keyboard customization (ongoing system)
-  - **tmux/**: Terminal multiplexer (ongoing system)
-  - **window-manager/**: Tiling window management (ongoing system)
+## Maintenance cadence
 
-### **Resources** (Reference materials)
-- **cheatsheets/**: Quick reference guides for tools and commands
-- **tutorials/**: Step-by-step guides for setup and usage
-- **documentation/**: Official documentation and specifications
-- **references/**: External references, tools, and concepts
-- **notes/**: Terminal & CLI tools reference
+- **Weekly**: process `Inbox/` — route each capture into Projects, Areas, Resources, or Archives.
+- **Monthly**: review `Projects/` — move completed or paused project folders to `Archives/`.
+- **Quarterly**: review `Areas/` — drop any responsibility you no longer maintain a standard for; move its folder to `Archives/`.
 
-### **Archives** (Completed/inactive)
-- Completed projects and inactive content
+## Filename and link conventions
 
-## Key Reorganization Principles
-
-### 1. **Proper PARA Classification**
-- **Projects**: Only time-bound efforts with clear goals
-- **Areas**: Ongoing responsibilities and systems
-- **Resources**: Reference materials and documentation
-- **Archives**: Completed or inactive content
-
-### 2. **Logical Technology Grouping**
-- **Development**: All programming-related content
-- **Systems**: All system management and customization
-- **Resources**: All reference and documentation materials
-
-### 3. **Consistent Organization**
-- Related technologies grouped together
-- Clear separation of concerns
-- Consistent naming conventions
-
-## Maintenance Guidelines
-
-1. **Weekly Review**: Process Inbox items
-2. **Monthly Review**: Archive completed projects
-3. **Quarterly Review**: Consolidate and clean up
-4. **PARA Compliance**: Ensure new content goes to correct category
-
-## Benefits of Reorganization
-
-- **Better PARA Compliance**: Clear separation of content types
-- **Improved Navigation**: Logical grouping of related technologies
-- **Enhanced Discoverability**: Related content grouped together
-- **Easier Maintenance**: Consistent organization principles
-- **Reduced Cognitive Load**: Clearer mental models
-
----
-
-This reorganized structure properly aligns with PARA method principles while maintaining clarity and usability.
+- Notes: `snake_case.md`. Daily notes: `YYYY-MM-DD.md`. Per-directory index: `README.md`.
+- Wikilinks: prefer bare `[[name]]`; use relative paths only when disambiguation is needed.
+- Frontmatter: optional and minimal — only add it when a template calls for it.

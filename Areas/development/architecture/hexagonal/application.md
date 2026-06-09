@@ -12,7 +12,7 @@ Domain Model
 
 The Application is represented by a hexagon which receives commands or queries from the Ports, and sends requests out to other external actors, like databases, via Ports as well.
 
-![[Pasted image 20250619055306.png]]
+![[pasted_image_20250619055306.png]]
 
 When paired with Domain-Driven Design, the Application, or Hexagon, contains both the Application and the Domain layers, leaving the User Interface and Infrastructure layers outside.
 

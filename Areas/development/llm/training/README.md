@@ -2,4 +2,4 @@
 
 This section contains notes, guides, and experiments related to large language model (LLM) training, fine-tuning, and evaluation.
 
-- [[../prompt_engineering/readme]] for prompt engineering notes 
+- [[../prompt_engineering/README]] for prompt engineering notes

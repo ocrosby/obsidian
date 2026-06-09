@@ -125,11 +125,9 @@ Do not commit on the user's behalf unless explicitly asked. Surface the diff and
 
 These are documented and tracked separately — fix only on explicit request:
 
-- Documented structure in `README.md` and `Meta/README.md` references folders that don't exist on disk (`Inbox/`, `Archives/`, `Templates/`, `Resources/{cheatsheets,tutorials,notes}/`) and uses hyphenated names where disk uses underscores (`scout-sleuth`, `window-manager`).
-- 8 PascalCase note filenames (`Intern.md`, `Hostname.md`, `MiniKube.md`, several under `Areas/development/editors/neovim/Keymaps/`).
-- 3 Title-Case subdirectories under `Areas/development/editors/neovim/` (`Keymaps/`, `Plenary/`, `Plugins/`) — the only Title-Case dirs in the entire `Areas/` tree.
-- Two `Pasted image *.png` files at vault root referenced from `Areas/development/architecture/hexagonal/{adapters,application}.md` — works today via global resolution, fragile to attachment cleanup.
-- Several PARA borderline cases: loose files at `Areas/` root (`agents.md`, `ollama.md`, `pathway.md`, `pyoutulan.md`, `vercel.md`) are unclassified — they may belong under `Areas/development/`, in `Resources/`, or in `Inbox/`. Surface but do not move.
+- Several PARA borderline cases: loose files at `Areas/` root (`agents.md`, `ollama.md`, `pathway.md`, `pyoutulan.md`, `vercel.md`, `vibe_coding_advice.md`, `speed_reading.md`, `project_planning.md`, `llm_assisted_project_development_framework.md`) and `Projects/release_email_wizard_plan.md` are unclassified — they may belong under a deeper `Areas/` subdir, `Resources/`, `Inbox/`, or `Archives/`. Surface but do not move.
+- Vault-root notes `intern.md`, `stoic.md`, `thread.md` sit outside PARA. Surface but do not move.
+- `Areas/development/editors/vim/motions_old.md` — `_old` tombstone with 6KB of real content. Likely candidate for `Archives/`.
 
 ## When in doubt
 

@@ -6,5 +6,5 @@ An Adapter will initiate the interaction with the Application through a Port, us
 
 There can be many Adapters for any single Port as needed without this representing a risk to the Ports or the Application itself.
 
-![[Pasted image 20250619054930.png]]
+![[pasted_image_20250619054930.png]]
 

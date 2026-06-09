@@ -1,6 +1,6 @@
 
 ## Configuration
-- See [[README]] for the Neovim overview, and [[Plugins/README]] for plugin notes.
+- See [[README]] for the Neovim overview, and [[plugins/README]] for plugin notes.
 
 ## Plugins
-- [[Plugins/README]]
+- [[plugins/README]]
