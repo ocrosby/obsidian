@@ -1,4 +1,4 @@
-[[readme]]
+[[../README]]
 
 ## Step 1. Start from your goal
 
