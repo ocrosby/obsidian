@@ -6,8 +6,10 @@
 .obsidian/graph.json
 .obsidian/cache
 
-# Ignore generated copilot plugin index (contains embedded note content)
-.obsidian/copilot-index-*.json
+# Ignore all top-level Obsidian config (app.json, appearance.json,
+# community-plugins.json, core-plugins.json, copilot-index-*.json, etc.)
+# Keep per-machine settings local rather than syncing via git.
+.obsidian/*.json
 
 # Ignore all plugin binaries/data by default
 .obsidian/plugins/*
