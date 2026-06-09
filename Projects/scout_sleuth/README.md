@@ -6,10 +6,9 @@ A real-time recruiting intelligence platform for student-athletes, parents, and 
 
 ## Status
 
-<!-- TODO: update with current phase, blockers, next milestone -->
 - **Phase:** validation
-- **Last update:** _(set when reviewing)_
-- **Next milestone:** _(set when reviewing)_
+- **Last update:** 2026-06-09
+- **Next milestone:** 100 survey responses
 
 ## Goal
 
