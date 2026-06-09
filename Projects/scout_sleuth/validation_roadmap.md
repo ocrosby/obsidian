@@ -3,32 +3,34 @@
 ## Recommended Priority Order
 
 ### Phase 1: Quick Market Validation (Week 1)
-**Priority 1: Landing Page + Survey Launch**
+**Priority 1: Landing Page + Survey Launch** — see [[landing_page_content]], [[market_validation_survey]], [[surveymonkey_format]]
 - **Why First:** Fastest way to test market demand with minimal investment
 - **Timeline:** 3-4 days to build, immediate feedback
 - **Cost:** $200-500 for ads
 - **Success Metric:** 5%+ email conversion rate, 100+ signups in first week
 
-### Phase 2: Technical Feasibility (Week 2) 
-**Priority 2: Manual Extraction Test**
+### Phase 2: Technical Feasibility (Week 2)
+**Priority 2: Manual Extraction Test** — see [[manual_extraction_test]]
 - **Why Second:** Validates core technical assumption before deeper investment
 - **Timeline:** 5-7 days total
 - **Cost:** ~$100 in API costs for LLM testing
 - **Success Metric:** 75%+ accuracy on core fields
 
 ### Phase 3: Deep Customer Understanding (Weeks 3-4)
-**Priority 3: In-Depth Interviews**
+**Priority 3: In-Depth Interviews** — see [[interview_guide]]
 - **Why Third:** Refine product direction based on real customer insights
 - **Timeline:** 2 weeks (recruiting and conducting 10 interviews)
 - **Cost:** $200-500 in incentives for participants
 - **Success Metric:** Clear feature prioritization and pricing validation
 
 ### Phase 4: Strategic Positioning (Week 5-6)
-**Priority 4: Competitor Analysis**
+**Priority 4: Competitor Analysis** — see [[competitor_analysis]]
 - **Why Last:** Strategic context to refine positioning after market validation
 - **Timeline:** 2 weeks for comprehensive analysis
 - **Cost:** $0 (research only)
 - **Success Metric:** Clear competitive differentiation strategy
+
+Master plan: [[project_plan]].
 
 ---
 
