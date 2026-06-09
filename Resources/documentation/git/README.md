@@ -1,4 +1,4 @@
 
 # An Introduction to Git
 
-## [[auto-setup-remote]]
+## [[auto_setup_remote]]

@@ -35,6 +35,6 @@ Note: If no move to the next or previous panel while zoomed it will automaticall
 
 ## [[Navigation in Tmux]]
 
-## [[Managing Tmux Sessions]]
+## [[managing_tmux_sessions]]
 
-## [[Omar's Tmux]]
+## [[omars_tmux]]

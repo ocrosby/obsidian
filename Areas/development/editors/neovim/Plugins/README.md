@@ -3,9 +3,9 @@ aliases: ["Neovim Plugins Overview"]
 ---
 # Neovim Plugins
 
-## [[lua-plugin]]
-## [[lazy-loading-lua]]
-## [[many-modules]]
-## [[plugin-configuration]]
-## [[require-performance]]
-## [[internal-lazy-loading]]
+## [[lua_plugin]]
+## [[lazy_loading_lua]]
+## [[many_modules]]
+## [[plugin_configuration]]
+## [[require_performance]]
+## [[internal_lazy_loading]]

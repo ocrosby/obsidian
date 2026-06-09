@@ -1,7 +1,7 @@
 
 ## [[navigation_in_vim]]
 
-## [[vim_motions]]
+## [[movements/README]]
 
 ## [[editing]]
 

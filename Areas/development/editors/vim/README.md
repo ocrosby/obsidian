@@ -6,7 +6,7 @@ aliases: ["Vim Motions"]
 - [[visual_mode]]
 - [[normal_mode]]
 - [[range_motions]]
-- [[macro_application]]
+- [[macros/applying_macros]]
 - [[motion_cheatsheet]]
 
 `C-d` move down half the length of a screen
