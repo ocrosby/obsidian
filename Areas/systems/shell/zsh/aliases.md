@@ -1,3 +1,6 @@
 # zsh — Aliases
 
 <!-- TODO -->
+
+---
+↑ [[README]]

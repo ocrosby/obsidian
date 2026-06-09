@@ -16,4 +16,5 @@ tags: ["movements", "horizontal"]
 - "l": it moves the cursor to the right character
 - There are equivalent backward movements: b, B, F, T respectively
 
-
+---
+↑ [[README]]

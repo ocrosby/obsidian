@@ -38,3 +38,6 @@ Note: If no move to the next or previous panel while zoomed it will automaticall
 ## [[managing_tmux_sessions]]
 
 ## [[omars_tmux]]
+
+---
+↑ [[../../README]]

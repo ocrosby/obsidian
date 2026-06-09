@@ -22,3 +22,5 @@ Or across a line range:
 :10,20normal @a
 ```
 
+---
+↑ [[../README]]

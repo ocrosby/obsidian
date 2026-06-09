@@ -72,5 +72,5 @@ If you run `yy`, Vim uses the **unnamed register** (" implicitly), meaning:
 - You don't need to type " unless you're using a **specific** register.
 - So `yy` is shorthand for `"yy`.
 
-
-
+---
+↑ [[README]]

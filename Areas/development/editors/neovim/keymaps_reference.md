@@ -43,3 +43,6 @@ This note documents custom Neovim keymaps organized by category. Leader key is s
 ## 📂 [[session_management]]
 
 ## 🕵️ [[telescope_leader_keymap_search]]
+
+---
+↑ [[README]]

@@ -8,3 +8,5 @@ The first thing that you need to know about vim is: Vim is a modal editor. This 
 
 An important tip: look at the bottom of vim's screen and you will see which mode is currently in use. You can see `INSERT` or `VISUAL` for the respective modes, or when you don't see anything it means you are in `NORMAL/COMMAND` mode.
 
+---
+↑ [[../README]]

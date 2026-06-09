@@ -255,3 +255,16 @@ The recruiting window is small and closing fast. Join the families who are stayi
 **Day 7:** Launch and initial traffic monitoring
 
 **Testing Period:** 4-6 weeks to gather sufficient data for go/no-go decision
+
+## Related
+
+- [[project_plan]] — phases, validation gates, MVP scope
+- [[validation_roadmap]] — recommended priority order and timeline
+- [[market_validation_survey]] — survey content for recruiting communities
+- [[surveymonkey_format]] — SurveyMonkey-ready format of the survey
+- [[interview_guide]] — in-depth interview guide for families
+- [[competitor_analysis]] — competitive landscape and gap analysis
+- [[manual_extraction_test]] — manual data extraction proof-of-concept
+
+---
+↑ [[README]]

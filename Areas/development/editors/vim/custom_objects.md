@@ -10,3 +10,6 @@ Examples:
 ```vim
 omap af <Plug>(textobj-function-a)
 omap if <Plug>(textobj-function-i)
+
+---
+↑ [[README]]

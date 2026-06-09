@@ -10,3 +10,6 @@ Use brackets and parentheses:
 | `da{`   | Delete around {}                 |
 | `di[`   | Delete inside []                 |
 | `da[`   | Delete around []                 |
+
+---
+↑ [[README]]

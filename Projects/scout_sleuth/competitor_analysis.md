@@ -282,3 +282,16 @@ Systematically analyze existing recruiting services to identify market gaps, pri
 - **Week 1:** Detailed analysis of Tier 1 competitors (247Sports, Rivals, ESPN, On3)
 - **Week 2:** Analysis of specialized services and gap identification
 - **Ongoing:** Monthly monitoring updates and quarterly deep dives
+
+## Related
+
+- [[project_plan]] — phases, validation gates, MVP scope
+- [[validation_roadmap]] — recommended priority order and timeline
+- [[market_validation_survey]] — survey content for recruiting communities
+- [[surveymonkey_format]] — SurveyMonkey-ready format of the survey
+- [[interview_guide]] — in-depth interview guide for families
+- [[landing_page_content]] — landing page copy and demand-test strategy
+- [[manual_extraction_test]] — manual data extraction proof-of-concept
+
+---
+↑ [[README]]

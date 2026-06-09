@@ -45,3 +45,5 @@ vim.keymap.set("n", "<leader>sv", ":vsplit | enew<CR>", { desc = "Vertical split
 :e newfile.txt
 ```
 
+---
+↑ [[README]]

@@ -7,3 +7,5 @@ When creating new feature branches I am annoyed by always having to setup the up
 
 This will effectively automatically setup the upstream tracking branch for you.
 
+---
+↑ [[README]]

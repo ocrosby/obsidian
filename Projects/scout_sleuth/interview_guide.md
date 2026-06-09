@@ -80,3 +80,16 @@
 - **Share summary** of the interview findings and how they will inform product development
 - **Express gratitude** and offer the interviewee the opportunity to beta test the product or receive early updates
 - **Collect any additional thoughts** they may have post-interview, emphasizing ongoing collaboration
+
+## Related
+
+- [[project_plan]] — phases, validation gates, MVP scope
+- [[validation_roadmap]] — recommended priority order and timeline
+- [[market_validation_survey]] — survey content for recruiting communities
+- [[surveymonkey_format]] — SurveyMonkey-ready format of the survey
+- [[competitor_analysis]] — competitive landscape and gap analysis
+- [[landing_page_content]] — landing page copy and demand-test strategy
+- [[manual_extraction_test]] — manual data extraction proof-of-concept
+
+---
+↑ [[README]]

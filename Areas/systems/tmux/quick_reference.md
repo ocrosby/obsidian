@@ -10,3 +10,6 @@
 
 ## 🛠 Troubleshooting
 - [[troubleshooting]]
+
+---
+↑ [[../../README]]

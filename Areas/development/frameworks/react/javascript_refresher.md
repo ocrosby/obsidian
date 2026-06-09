@@ -60,3 +60,6 @@ Note: The react build process injects script tag .
 	Your code is transformed behind the scenes. This happens by a translator in `react-scripts` (see the package.json file).
 
 React uses `JSX` which isn't valid `HTML` or `JavaScript`.
+
+---
+↑ [[README]]

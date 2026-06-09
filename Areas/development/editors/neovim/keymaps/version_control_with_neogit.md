@@ -5,3 +5,6 @@
 - `<leader>gl` — Pull
 - `<leader>gn` — Create and checkout new branch
 - `<leader>gb` — Git branches (Telescope)
+
+---
+↑ [[README]]

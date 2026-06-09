@@ -15,3 +15,6 @@ aliases: ["Vim Macros"]
 ## [[macro_tips]]
 
 ## [[macro_cheat_sheet]]
+
+---
+↑ [[../README]]

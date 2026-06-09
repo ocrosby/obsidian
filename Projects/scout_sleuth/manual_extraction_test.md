@@ -199,3 +199,16 @@ POST: [insert post text here]
 - **Days 3-4:** Manual extraction (ground truth)
 - **Days 5-6:** LLM testing and comparison
 - **Day 7:** Analysis and decision on technical feasibility
+
+## Related
+
+- [[project_plan]] — phases, validation gates, MVP scope
+- [[validation_roadmap]] — recommended priority order and timeline
+- [[market_validation_survey]] — survey content for recruiting communities
+- [[surveymonkey_format]] — SurveyMonkey-ready format of the survey
+- [[interview_guide]] — in-depth interview guide for families
+- [[competitor_analysis]] — competitive landscape and gap analysis
+- [[landing_page_content]] — landing page copy and demand-test strategy
+
+---
+↑ [[README]]

@@ -94,3 +94,5 @@ The global settings variable approach has its downsides though:
 
 This - or using flat settings - used to be the default way to configure plugins written in vimscript.
 
+---
+↑ [[README]]

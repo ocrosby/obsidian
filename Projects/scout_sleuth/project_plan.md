@@ -227,11 +227,13 @@ Single-sport (football), single-platform (Twitter), manual validation, basic das
 ## Phase 5: Validation & Testing Strategy
 
 ### Pre-Development Validation:
-1. **Survey recruiting communities** (Reddit r/collegebaseball, recruiting Twitter)
-2. **Interview 10 recruiting families** about current pain points
-3. **Analyze competitor offerings** (247Sports, Rivals, etc.)
-4. **Test manual extraction process** with sample posts
-5. **Validate willingness to pay** with landing page + email collection
+1. **Survey recruiting communities** (Reddit r/collegebaseball, recruiting Twitter) — see [[market_validation_survey]] and [[surveymonkey_format]]
+2. **Interview 10 recruiting families** about current pain points — see [[interview_guide]]
+3. **Analyze competitor offerings** (247Sports, Rivals, etc.) — see [[competitor_analysis]]
+4. **Test manual extraction process** with sample posts — see [[manual_extraction_test]]
+5. **Validate willingness to pay** with landing page + email collection — see [[landing_page_content]]
+
+Recommended order and timeline: [[validation_roadmap]].
 
 ### Development Validation:
 1. **Weekly accuracy reviews** with domain experts
@@ -267,3 +269,16 @@ Single-sport (football), single-platform (Twitter), manual validation, basic das
 5. Set up development environment and begin Section 1
 
 *Status: Ready for market validation phase*
+
+## Related
+
+- [[validation_roadmap]] — recommended priority order and timeline
+- [[market_validation_survey]] — survey content for recruiting communities
+- [[surveymonkey_format]] — SurveyMonkey-ready format of the survey
+- [[interview_guide]] — in-depth interview guide for families
+- [[competitor_analysis]] — competitive landscape and gap analysis
+- [[landing_page_content]] — landing page copy and demand-test strategy
+- [[manual_extraction_test]] — manual data extraction proof-of-concept
+
+---
+↑ [[README]]

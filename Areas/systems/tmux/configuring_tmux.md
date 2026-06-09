@@ -33,3 +33,6 @@ set -g @plugin 'fabioluciano/tmux-tokyo-night'
 ```
 
 Since I'm using tokyonight in neovim I'm going to try to use [Tokyo Night Tmux Theme](https://github.com/fabioluciano/tmux-tokyo-night).
+
+---
+↑ [[../../README]]

@@ -94,3 +94,6 @@
 ### Keep a personal Neovim config Git repo
 ### Document your keymaps, plugins, and workflows
 ### Use dotfile managers like stow or chezmoi
+
+---
+↑ [[README]]

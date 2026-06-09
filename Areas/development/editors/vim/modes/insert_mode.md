@@ -12,3 +12,6 @@ Just remember: if you need to move between words or lines, you need to switch ba
 To save the file, type the `ESC` key to switch back to `Normal Mode` then type `:w`. 
 
 The most important: to quit vim, type `:q` while in `Normal Mode`.
+
+---
+↑ [[../README]]

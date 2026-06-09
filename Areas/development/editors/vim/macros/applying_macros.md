@@ -26,3 +26,6 @@ q        " Stop recording
 ```vim
 10@a     " Run macro 'a' 10 times
 ```
+
+---
+↑ [[../README]]

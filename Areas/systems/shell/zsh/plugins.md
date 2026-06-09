@@ -1,3 +1,6 @@
 # zsh — Plugins
 
 <!-- TODO -->
+
+---
+↑ [[README]]

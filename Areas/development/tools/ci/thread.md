@@ -204,3 +204,5 @@ If you want **clean, traceable, single‑thread deployment visibility**:
 
 This pattern scales cleanly across environments, services, and teams.
 
+---
+↑ [[../../../README]]

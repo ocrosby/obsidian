@@ -8,3 +8,5 @@ There can be many Adapters for any single Port as needed without this representi
 
 ![[pasted_image_20250619054930.png]]
 
+---
+↑ [[README]]

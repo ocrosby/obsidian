@@ -82,3 +82,5 @@ ssh-copy-id fred@myserver.local
 
 This assumes you are attempting to ssh into a machine named `myserver.local`.
 
+---
+↑ [[../../README]]

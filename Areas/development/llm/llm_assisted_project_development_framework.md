@@ -270,3 +270,6 @@ Consider creating your own ideas repository with:
 *This framework combines structured project planning with modern LLM-assisted development practices and practical idea validation. The best ideas are discovered, not invented. Let the market pull you.*
 
 *Update and adapt based on your experience and emerging tools.*
+
+---
+↑ [[../../README]]

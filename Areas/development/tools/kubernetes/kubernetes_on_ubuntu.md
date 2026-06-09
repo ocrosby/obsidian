@@ -13,3 +13,6 @@ sudo systemctl start avahi-daemon
 # verify it's working
 systemctl status avahi-daemon
 ```
+
+---
+↑ [[README]]

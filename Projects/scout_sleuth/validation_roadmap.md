@@ -205,3 +205,16 @@ Would you like me to help you:
 5. **Something else specific?**
 
 The key is to start fast and validate quickly - the market will tell you if this is worth building!
+
+## Related
+
+- [[project_plan]] — phases, validation gates, MVP scope
+- [[market_validation_survey]] — survey content for recruiting communities
+- [[surveymonkey_format]] — SurveyMonkey-ready format of the survey
+- [[interview_guide]] — in-depth interview guide for families
+- [[competitor_analysis]] — competitive landscape and gap analysis
+- [[landing_page_content]] — landing page copy and demand-test strategy
+- [[manual_extraction_test]] — manual data extraction proof-of-concept
+
+---
+↑ [[README]]

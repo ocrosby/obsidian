@@ -163,3 +163,6 @@ opencode chat --model ollama/phi3:mini "Summarize this README file."
 	•	All models persist locally, offline, and private.
 
 With this setup, your Mac Studio M2 Ultra delivers near real-time local LLM performance in OpenCode — GPU-accelerated, tool-capable, and optimized for development workflows.
+
+---
+↑ [[../../README]]

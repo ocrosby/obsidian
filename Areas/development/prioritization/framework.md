@@ -123,3 +123,6 @@ Introduce **modifiers** to adjust the final priority rank:
 |Freshness|Auto-flags stale, unreviewed work|
 |Visibility|Encourages data-backed, visual prioritization|
 |Team Engagement|Enables cross-functional collaboration|
+
+---
+↑ [[../../README]]

@@ -1,3 +1,6 @@
 # tmux — Troubleshooting
 
 <!-- TODO -->
+
+---
+↑ [[../../README]]

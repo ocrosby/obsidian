@@ -93,3 +93,6 @@ q          " Stop recording
 ---
 
 Happy automating! 🚀
+
+---
+↑ [[../README]]

@@ -35,3 +35,5 @@ This would then allow you to refer to other modules like this:
 lazy.session.do_something()
 ```
 
+---
+↑ [[README]]

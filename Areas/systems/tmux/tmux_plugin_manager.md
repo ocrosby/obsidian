@@ -38,3 +38,6 @@ Plugins are cloned to `~/.tmux/plugins` dir and sourced.
 2. Press `prefix`+`alt`+`u` (lowercase u as in uninstall) to remove the plugin.
 
 All the plugins are installed to `~/.tmux/plugins/` so alternatively you can find the plugin directory there and remove it.
+
+---
+↑ [[../../README]]

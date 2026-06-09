@@ -5,3 +5,6 @@
 - `<leader>ts` — Toggle test summary
 - `<leader>to` — Show test output
 - `<leader>tw` — Toggle test watch
+
+---
+↑ [[README]]

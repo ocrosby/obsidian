@@ -198,3 +198,6 @@ Adopt retrospective-driven reflections to reinforce improvements post‑release�
   
 
 Technical debt should be **managed**, not dismissed. With a layered strategy—allocating time, measuring impact, aligning with business objectives, and reinforcing governance—you transform debt from a chaotic burden into a disciplined business process. It invites sustainable velocity, reduces risk, and supports future innovation.
+
+---
+↑ [[../README]]

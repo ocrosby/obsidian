@@ -52,3 +52,5 @@ ping -c 4 8.8.8.8
 
 This checks to see if you are getting to the internet.
 
+---
+↑ [[../../README]]

@@ -17,3 +17,6 @@ The Application is represented by a hexagon which receives commands or queries f
 When paired with Domain-Driven Design, the Application, or Hexagon, contains both the Application and the Domain layers, leaving the User Interface and Infrastructure layers outside.
 
 A Hexagon is used to have a visual representation of the multiple Port/Adapter combinations an application might have, and also to depict how the left side of the application or 'driving side', has different interactions and implementations compared to the right side, or 'driven side'.
+
+---
+↑ [[README]]

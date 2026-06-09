@@ -33,3 +33,6 @@ Tip: Try to avoid creating a `foobar/util.lua`, it often ends up as a collection
 - Can lead to a higher startup footprint, especially if the main entry point (`foobar.lua` or `init.lua`) eagerly loads all other modules. 
 - Creating lots of tiny modules can reduce readability due to the increased surface and indirection.
 - You can't have "plugin private" functions across modules. To use a function of `foobar/session.lua` in `foobar/init.lua` you need to return it in `foobar/session.lua`. That exposes it to users too. A common convention is to prefix private functions with an underscore to indicate it's considered private. Some plugins consider any undocumented functions as private.
+
+---
+↑ [[README]]

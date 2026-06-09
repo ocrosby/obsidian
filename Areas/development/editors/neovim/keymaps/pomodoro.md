@@ -5,3 +5,6 @@
 - `<leader>pr` — Repeat last timer
 - `<leader>pe` — Stop current timer
 - `<leader>pp` — Start Pomodoro session
+
+---
+↑ [[README]]

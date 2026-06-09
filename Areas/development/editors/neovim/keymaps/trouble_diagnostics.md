@@ -5,3 +5,6 @@
 - `<leader>xr` — LSP references
 - `<leader>xl` — Location list
 - `<leader>xq` — Quickfix list
+
+---
+↑ [[README]]

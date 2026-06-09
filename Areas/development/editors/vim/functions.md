@@ -6,3 +6,6 @@
 | `dif`   | Delete inside function          |
 
 > Requires Treesitter support + plugins like `nvim-treesitter-textobjects`.
+
+---
+↑ [[README]]

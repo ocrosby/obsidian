@@ -17,3 +17,5 @@ You can also **edit the macro** like text:
 3. Edit as needed.
 4. Yank back to the register: visually select it, then  `"ay`
 
+---
+↑ [[../README]]

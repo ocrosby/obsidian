@@ -1,3 +1,6 @@
 # FastAPI — Models
 
 <!-- TODO -->
+
+---
+↑ [[README]]

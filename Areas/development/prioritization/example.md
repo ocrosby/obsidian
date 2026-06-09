@@ -124,3 +124,6 @@ The structured proposal gives the LLM enough context to:
 |Push Notification Settings Revamp|7.2|Important UX task, but no revenue/retention linkage|
 
 This prioritization guides PMs and EMs during planning sessions and supports data-informed roadmap decisions.
+
+---
+↑ [[../../README]]

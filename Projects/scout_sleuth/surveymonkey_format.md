@@ -253,3 +253,16 @@ ____________
 - **Export Options:** CSV export for analysis
 
 This format is optimized for SurveyMonkey's interface and includes all the strategic elements from your original market validation survey.
+
+## Related
+
+- [[project_plan]] — phases, validation gates, MVP scope
+- [[validation_roadmap]] — recommended priority order and timeline
+- [[market_validation_survey]] — survey content for recruiting communities
+- [[interview_guide]] — in-depth interview guide for families
+- [[competitor_analysis]] — competitive landscape and gap analysis
+- [[landing_page_content]] — landing page copy and demand-test strategy
+- [[manual_extraction_test]] — manual data extraction proof-of-concept
+
+---
+↑ [[README]]

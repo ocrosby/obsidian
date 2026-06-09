@@ -24,3 +24,5 @@ tmux kill-session -t your-session-name
 :kill-session
 ```
 
+---
+↑ [[../../README]]

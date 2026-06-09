@@ -1,3 +1,6 @@
 # FastAPI — Async
 
 <!-- TODO -->
+
+---
+↑ [[README]]

@@ -6,3 +6,5 @@ To access this mode, you need to be in `Normal Mode`, then type the `:` key.'
 
 This mode is where you will execute commands such as updating vim configurations, saving, quitting, opening new files, tabs, buffers, etc...
 
+---
+↑ [[../README]]

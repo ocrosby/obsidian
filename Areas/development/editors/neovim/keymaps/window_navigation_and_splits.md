@@ -5,3 +5,6 @@
 - `<leader>ws` — Horizontal split
 - `<leader>wv` — Vertical split
 - `<C-Up/Down/Left/Right>` — Resize window
+
+---
+↑ [[README]]

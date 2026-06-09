@@ -49,3 +49,6 @@ This approach works well for smaller plugins which are a couple hundred lines or
 ### Disadvanteges
 
 - Can get hard to navigate once the file becomes large.
+
+---
+↑ [[README]]

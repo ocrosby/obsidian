@@ -1,3 +1,6 @@
 # zsh — Functions
 
 <!-- TODO -->
+
+---
+↑ [[README]]

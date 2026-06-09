@@ -6,3 +6,6 @@
 - `<leader>ob` — Show backlinks
 - `<leader>ol` — Link to note
 - `<leader>of` — Follow link
+
+---
+↑ [[README]]
