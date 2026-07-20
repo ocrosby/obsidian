@@ -40,6 +40,8 @@ Each drives Nvim over msgpack-RPC and hosts remote plugins in that language:
 ### Editor integrations
 - **VSNvim** — Nvim inside Visual Studio 2017.
 
+See [[editor_integrations]] for the full landscape.
+
 ### First-party plugins & specs
 - **nvim-lspconfig** — quickstart LSP server configs (Lua).
 - **nvimdev.nvim** — plugin for people hacking on Neovim itself.
@@ -48,10 +50,16 @@ Each drives Nvim over msgpack-RPC and hosts remote plugins in that language:
 
 See [[first_party_plugins]] for a detailed guide with versioning, structure, and comparisons.
 
+## Contributing
+
+- [[getting_involved]] — where the humans are, how to send a first PR, and a reading order for understanding the codebase
+
 ### Infrastructure & distribution
 - **unibilium** — terminfo parser library ([third-party dep](https://github.com/neovim/neovim/blob/master/MAINTAIN.md#third-party-dependencies)).
 - **neovim-snap** — Snap package build config.
 - **neovim.github.io** — the neovim.io website.
+
+See [[infrastructure]] for detail on release plumbing and packaging.
 
 ## Vendored (not separate repos)
 
@@ -59,6 +67,8 @@ These *used to* be standalone repos in the org but now live inside `neovim/` and
 
 - `neovim/src/nvim/vterm/` ← was `libvterm`
 - `neovim/src/nvim/tui/termkey/` ← was `libtermkey`
+
+See [[vendored_code]] for history and current locations.
 
 ## Cross-repo dependencies
 
