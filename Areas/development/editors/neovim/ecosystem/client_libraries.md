@@ -61,7 +61,7 @@ Install: `gem install neovim`.
 ### Use nvim.net if
 - You must speak from .NET (Windows tooling, Visual Studio integration, F# scripting).
 - Solo-maintainer risk is acceptable — one person owns it and has kept it moving through 2026.
-- The typical use case is powering [[VSNvim]]-style embeddings, but VSNvim itself is dead (last commit 2018).
+- The typical use case is powering VSNvim-style embeddings (Nvim inside Visual Studio 2017), but VSNvim itself is dead (last commit 2018).
 
 Install: NuGet `NvimClient.API` (v0.20.0).
 

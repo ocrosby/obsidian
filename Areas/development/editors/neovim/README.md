@@ -37,6 +37,17 @@ Neovim improves upon Vim in several key areas:
 
 - 🧘 **Minimal and distraction-free** workflow for serious coding and writing
 
+## Index
+
+- [[learning_guide]]
+- [[keymaps_reference]]
+- [[quick_reference]]
+- [[build_telescope_extension]]
+- [[plugins/README]]
+- [[keymaps/README]]
+- [[ecosystem/readme]]
+- [[plenary/an_introduction_to_plenary]]
+
 ## References
 
 - [Watch this video for Python IDE setup](https://www.youtube.com/watch?v=VljhZ0e9zGE&t=830s)

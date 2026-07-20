@@ -2,6 +2,11 @@
 aliases: ["An Introduction to React"]
 ---
 
+## Notes in this folder
+
+- [[javascript_refresher]]
+- [[codesandbox]]
+
 ## Creating a React Project
 
 ## Browser Based

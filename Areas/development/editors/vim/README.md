@@ -3,11 +3,40 @@ aliases: ["Vim Motions"]
 ---
 # Vim Motions
 
+## Modes
+- [[modes/an_introduction_to_vim_modes]]
+- [[modes/normal_mode]]
+- [[modes/insert_mode]]
 - [[visual_mode]]
-- [[normal_mode]]
+
+## Motions
 - [[range_motions]]
-- [[macros/applying_macros]]
 - [[motion_cheatsheet]]
+- [[movements/readme]]
+- [[navigation_in_vim]]
+- [[searching]]
+
+## Text objects
+- [[a_and_i]] — inner vs around operators
+- [[brackets]]
+- [[quotes]]
+- [[paragraphs]]
+- [[custom_objects]]
+
+## Editing
+- [[editing]]
+- [[multi_line_editing]]
+- [[registers]]
+- [[saving_and_exiting]]
+
+## Macros
+- [[macros/macros]]
+- [[macros/applying_macros]]
+
+## Other
+- [[basic_vim_commands]]
+- [[functions]]
+- [[miscellaneous]]
 
 
 `C-d` move down half the length of a screen

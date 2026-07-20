@@ -19,4 +19,9 @@
 - pydanticai
 - marimo
 
+## Notes
+
+- [[uv]] — fast Rust-based Python package manager
+- [[click]]
 - [[fastapi/README]]
+- [[pytest/readme]]

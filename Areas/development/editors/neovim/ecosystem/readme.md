@@ -46,6 +46,8 @@ Each drives Nvim over msgpack-RPC and hosts remote plugins in that language:
 - **tree-sitter-vimdoc** — tree-sitter grammar for `:help` files.
 - **packspec** — ALPHA spec for declaring plugin/package dependencies.
 
+See [[first_party_plugins]] for a detailed guide with versioning, structure, and comparisons.
+
 ### Infrastructure & distribution
 - **unibilium** — terminfo parser library ([third-party dep](https://github.com/neovim/neovim/blob/master/MAINTAIN.md#third-party-dependencies)).
 - **neovim-snap** — Snap package build config.

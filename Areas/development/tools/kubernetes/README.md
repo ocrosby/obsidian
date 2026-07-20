@@ -4,6 +4,11 @@ aliases: ["Kubernetes"]
 
 # Kubernetes
 
+## Related notes
+
+- [[minikube]] — local single-node K8s for development
+- [[kubernetes_on_ubuntu]] — Ubuntu host setup
+
 ## What is it?
 
 Kubernetes is an container orchestration tool.
