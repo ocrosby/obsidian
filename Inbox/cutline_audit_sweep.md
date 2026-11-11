@@ -17,6 +17,8 @@ One session, eight PRs. Started from `/impeccable audit` reporting 17/20 Good wi
 
 ## Content-first design — the lesson
 
+Generalized at [[content_first_design]]. The cutline-specific record below is where the principle first surfaced.
+
 Both detector-finding fixes (#319 stat-card, #324 cutoff-row) worked by **deleting chrome**, not by replacing it with a different visual pattern. The signal was already being carried by content:
 
 - **Stat-card hero tier** — the hierarchy came from size (1.6rem vs 0.95rem), weight (700 vs 400), surface fill vs transparent background, and block padding. Four independent signals. The 3 px accent stripe on top of all that was reinforcement that happened to be the exact shape detectors flag as "generated-UI tell."
