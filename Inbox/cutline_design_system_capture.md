@@ -55,4 +55,4 @@ Next natural beat is **not** another `/impeccable` command. The system is captur
 
 - `/impeccable critique` on a specific surface if a page feels off — grades heuristically against both briefs
 - `/impeccable shape <surface>` when designing a new page — now has both briefs to work from
-- Promote this note and [[cutline_audit_sweep]] out of Inbox once the content-first design pattern graduates to a durable [[Resources]] entry
+- The content-first design pattern has graduated to [[content_first_design]] as a durable [[Resources]] entry; this note and [[cutline_audit_sweep]] stay in Inbox as the project-specific records of where it surfaced.
